@@ -1,0 +1,96 @@
+.footer-bg {
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    height: 556px;
+}
+
+.footer-content {
+    /* border: 1px solid red; */
+    width: 69%;
+    margin: auto;
+    padding: 62px 0px;
+}
+
+.footer-category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-category h3 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+
+.footer-category p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+}
+
+.footer-category h4 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.corporate-info,
+.help,
+.description {
+    margin-left: 5px;
+}
+
+.description>p {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+.readmore {
+    display: flex;
+    margin-top: 30px;
+}
+
+.readmore>p {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.arrowRight-icon {
+    margin-left: 18px;
+}
+
+.social-media-logos {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.social-media-logos div {
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+.copyright-text{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.hnm-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+.hnm-logo img{
+    width: 40px;
+}
+
+.country-name{
+    text-align: center;
+    font-size: 12px;
+
+    margin-top: 15px;
+}
