@@ -21,6 +21,7 @@ body{
 }
 
 .product-img{
+  /* border: 1px solid navy; */
   width: 100%;
   height: 640px;
   background-image: url(https://image.hm.com/content/dam/global_campaigns/season_08/ladies/2018/2018-3x2-teaser-2-studio-aw-2023.jpg?imwidth=657);
@@ -29,11 +30,13 @@ body{
 }
 
 .product-img-2{
+  /* border: 1px solid navy; */
   width: 100%;
   height: 640px;
   background-image: url(https://image.hm.com/content/dam/global_campaigns/season_08/men/3078l/3078L-3x2.jpg?imwidth=657);
   background-position: center;
   background-size: cover;
+  margin-top: 25px;
 }
 
 .product-img-3{
@@ -44,8 +47,35 @@ body{
   background-size: cover;
 }
 
+.product-img-4{
+  width: 100%;
+  height: 640px;
+  background-image: url(https://image.hm.com/content/dam/global_campaigns/season_08/kids/4078c/4078C-3x2-1.jpg?imwidth=657);
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.product-img-5{
+  width: 100%;
+  height: 640px;
+  background-image: url(https://image.hm.com/content/dam/TOOLBOX/PRE_SEASON/2023_s08/september_2023/TCL7223-3x2.jpg?imwidth=657);
+  background-position: center;
+  background-size: cover;
+  margin-top: 24px;
+}
+
 .pro-bg{
   background-image: linear-gradient(rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.35));
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pro-bg-5{
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.35)); */
   height: 100%;
   color: white;
   display: flex;
@@ -77,6 +107,31 @@ body{
   align-items: center;
   margin-top: 130px;
   margin-left: 10px;
+}
+
+.pro-tag-4{
+  /* border: 1px solid green; */
+  display: inline-block;
+  margin-top: 280px;
+  margin-right: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro-tag-5{
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 170px;
+  margin-right: 265px;
+}
+
+.up-arrow-icon{
+  color: rgb(34, 34, 34);
+  font-size: 35px;
+  margin-bottom: -20px;
 }
 
 .left-arrow-icon{
@@ -119,7 +174,14 @@ body{
   margin-bottom: 5px;
 }
 
-.pro-text > p:nth-child(2), .pro-text-2 > p:nth-child(2){
+.pro-text-4 > p:nth-child(1){
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.pro-text > p:nth-child(2), .pro-text-2 > p:nth-child(2),.pro-text-4 > p:nth-child(2){
   font-size: 14px;
   font-weight: 500;
   text-align: center;
@@ -130,7 +192,7 @@ body{
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .pro-button{
@@ -162,7 +224,7 @@ body{
 }
 
 .banner-content{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -257,4 +319,152 @@ body{
   border-color: rgb(229, 0, 16);
   background-color: rgb(229, 0, 16);
   color: white;
+}
+
+
+.arrivals-layout{
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.arrivals-poster{
+  /* border: 1px solid black; */
+  width: 222px;
+  height: 377px;
+}
+
+.arrivals-pic-1{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 333px;
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/32/c6/32c6354fff4e31c94254d657f7e1cf24c61da602.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.arrivals-pic-2{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 333px;
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/83/3c/833c11b3f60a06ee08a4a35039506c92a5a58bcd.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.arrivals-pic-3{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 333px;
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/45/eb/45eb360da0e2928a150b148a80078694443b80fa.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.arrivals-pic-4{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 333px;
+  background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/b1/0e/b10e04a8d44a1ce10687685987dc55ea21475ee5.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.heart-container{
+  /* border: 1px solid black; */
+  margin: 0px 16px 18px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-logo-regular-0{
+  color: white;
+  font-size: 14px;
+}
+
+.heart-logo-regular{
+  color: black;
+  margin-top: -21px;
+}
+
+.heart-logo-solid{
+  opacity: 0;
+  color: rgb(229, 0, 16);
+  margin-top: -21px;
+  cursor: pointer;
+}
+.heart-logo-solid:hover{
+  opacity: 1;
+}
+
+.arrivals-text, .arrivals-price{
+  color: rgb(34, 34, 34);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.slick-dot{
+  display: flex;
+  justify-content: center;
+}
+
+.circle-logo{
+  margin:0px 5px;
+}
+
+.circle-logo-solid{
+  font-size: 6px;
+  margin-top: -8px;
+  display: none;
+  cursor: pointer;
+}
+
+.slick-dot> div:nth-child(1) .circle-logo-solid{
+  display: block;
+  color: rgb(229, 0, 16);
+}
+.circle-logo-regular{
+  font-size: 6px;
+  cursor: pointer;
+}
+
+.circle-logo-regular:hover{
+  color: rgb(229, 0, 16);
+}
+
+.slick-dot{
+  margin: 12px 0px;
+}
+
+.magazine{
+  background-color: rgb(244, 237, 221);
+  width: 100%;
+  height: 624px;
+
+  margin-top: 24px;
+}
+
+.magazine-content{
+  border: 1px solid black;
+  width: 71%;
+  margin:auto;
 }
