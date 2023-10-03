@@ -62,7 +62,7 @@
    margin-left: 3px;
 }
 
-.sign-in, .favourites, .shopping-bag{
+.nav-sign-in, .nav-favourites, .nav-shopping-bag{
    display: flex;
    align-items: center;
 }

@@ -22,17 +22,17 @@ function Navbar() {
 				</div>
 
 				<div className="nav-right-text">
-					<div className="sign-in">
+					<div className="nav-sign-in">
 						<div className="user-logo"><FontAwesomeIcon icon={faUser} /></div>
 						<p>Sign in</p>
 					</div>
 
-					<div className="favourites">
+					<div className="nav-favourites">
 						<div className="heart-logo"><FontAwesomeIcon icon={faHeart} /></div>
 						<p>Favourites</p>
 					</div>
 
-					<div className="shopping-bag">
+					<div className="nav-shopping-bag">
 						<div className="bag-logo"><FontAwesomeIcon icon={faBagShopping} /></div>
 						<p>Shopping Bag</p>
 						<div className="bag-count">(O)</div>
