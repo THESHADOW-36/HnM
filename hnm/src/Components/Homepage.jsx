@@ -303,13 +303,65 @@ function Homepage() {
 
 			<div className="magazine">
 				<div className="magazine-content">
-					<h1>MAGAZINE</h1>
-					<p>A WORLD OF INSPIRATION</p>
-					<p>READ H&M MAGAZINE</p>
-					<div className="">
-						
+					<div className="magazine-text">
+						<h1>MAGAZINE</h1>
+						<p>A WORLD OF INSPIRATION</p>
+						<p>READ H&M MAGAZINE</p>
+					</div>
+					<div className="magazine-layout">
+
+
+						<div className="magazine-rts-box">
+							<div className="magazine-rts-img">
+								<img src="https://image.hm.com/content/dam/hm-magazine-2023/september_2023/2008-announcement/2008-Pool-party-3x2-Magazine-Article-Top-image-1688x1126_150ppi_V2.jpg?imwidth=384" alt="" />
+							</div>
+							<div className="magazine-rts-lay">
+								<div className="magazine-rts-text">
+									<p>INSIDE H&M</p>
+									<p>Introducing Rabanne H&M</p>
+								</div>
+								<div className="mag-rts-dir">
+									<p>Read The Story</p>
+									<div className="rts-arrowRight"><i class="fa-solid fa-arrow-right"></i></div>
+								</div>
+							</div>
+						</div>
+
+						<div className="magazine-rts-box">
+							<div className="magazine-rts-img">
+								<img src="https://image.hm.com/content/dam/hm-magazine-2023/september_2023/7428/7428-Outdoor-Movement-Magazine-image-1-1688x1126.jpg?imwidth=384" alt="" />
+							</div>
+							<div className="magazine-rts-lay">
+								<div className="magazine-rts-text">
+									<p>INSIDE H&M</p>
+									<p>Gear up for the outdoors</p>
+								</div>
+								<div className="mag-rts-dir">
+									<p>Read The Story</p>
+									<div className="rts-arrowRight"><i class="fa-solid fa-arrow-right"></i></div>
+								</div>
+							</div>
+						</div>
+
+						<div className="magazine-rts-box">
+							<div className="magazine-rts-img">
+								<img src="https://image.hm.com/content/dam/hm-magazine-2023/august_2023/lookbook-3088/3088-3x2-top-image.jpg?imwidth=384" alt="" />
+							</div>
+							<div className="magazine-rts-lay">
+								<div className="magazine-rts-text">
+									<p>INSIDE H&M</p>
+									<p>AUTUMN ’23 MENSWEAR <br /> TRENDS</p>
+								</div>
+								<div className="mag-rts-dir">
+									<p>Read The Story</p>
+									<div className="rts-arrowRight"><i class="fa-solid fa-arrow-right"></i></div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
+
 			</div>
 		</div>
 	)

@@ -1,0 +1,146 @@
+.sign-in-bg{
+   background-color: rgba(0, 0, 0, 0.7);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sign-in-lay{
+   background-color: rgb(250, 249, 248);
+   width: 500px;
+   height: 526px;
+}
+
+.sign-in{
+   /* border: 1px solid black; */
+   width: 434px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 10px 0px 0px 0px;
+}
+
+.sign-in-top{
+   /* border: 1px solid red; */
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.sign-in-top > p:nth-child(1){
+   margin-left: 30px;
+}
+
+.close-mark{
+   font-size: 34px;
+   margin-right: -10px;
+   cursor: pointer;
+}
+
+.voucher{
+   font-size: 13px;
+   text-align: center;
+   margin-top: 8px;
+}
+
+.sign-in-form{
+   /* border: 1px solid red; */
+   width: 100%;
+   margin-top: 26px;
+}
+
+.sign-in-form > label{
+   font-size: 13px;
+}
+
+.star{
+   color: red;
+}
+
+.sign-in-input{
+   border: 1px solid rgb(208, 208, 208);
+   background-color: white;
+   width: 100%;
+   height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3px;
+}
+
+.sign-in-input > input{
+   border: none;
+   width: 100%;
+   height: 99%;
+}
+
+.sign-in-password{
+   font-size: 13px;
+   margin-top: 15px;
+}
+
+.remem-forgot{
+   width: 100%;
+   font-size: 13px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3px;
+}
+
+.remember-me{
+   display: flex;
+   align-items: center;
+}
+
+.remember-me > input{
+   width: 22px;
+   height: 22px;
+   margin-right: 6px;
+   cursor: pointer;
+}
+
+.forgot-pass{
+   text-decoration-line: underline;
+   cursor: pointer;
+}
+
+.sign-in-butt{
+   background-color: rgb(34, 34, 34);
+   border: none;
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
+   width: 100%;
+   height: 50px;
+   margin-top: 36px;
+   cursor: pointer;
+}
+
+.sign-in-bam{
+   border: 1px solid rgb(34, 34, 34);
+   background-color: white;
+   width: 100%;
+   height: 50px;
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 16px;
+   cursor: pointer;
+}
+
+.mem-info{
+   width: 100%;
+   font-size: 13px;
+   text-align: center;
+   text-decoration-line: underline;
+   margin-top: 16px;
+   cursor: pointer;
+}

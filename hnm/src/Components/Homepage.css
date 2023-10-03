@@ -1,26 +1,27 @@
-body{
+body {
   overflow-x: hidden;
 }
-.body-content{
-  border: 1px solid gray;
+
+.body-content {
+  /* border: 1px solid gray; */
   width: 71%;
   margin: auto;
   padding-top: 20px;
 }
 
-.offers-appDownload{
+.offers-appDownload {
   /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 32px;
 }
 
-.offers-appDownload > div{
+.offers-appDownload>div {
   font-size: 13px;
   text-align: center;
 }
 
-.product-img{
+.product-img {
   /* border: 1px solid navy; */
   width: 100%;
   height: 640px;
@@ -29,7 +30,7 @@ body{
   background-size: cover;
 }
 
-.product-img-2{
+.product-img-2 {
   /* border: 1px solid navy; */
   width: 100%;
   height: 640px;
@@ -39,7 +40,7 @@ body{
   margin-top: 25px;
 }
 
-.product-img-3{
+.product-img-3 {
   width: 100%;
   height: 640px;
   background-image: url(https://image.hm.com/content/dam/global_campaigns/season_08/divided/5088b/5088B-3x2-the-new-cabin-chic.jpg?imwidth=657);
@@ -47,7 +48,7 @@ body{
   background-size: cover;
 }
 
-.product-img-4{
+.product-img-4 {
   width: 100%;
   height: 640px;
   background-image: url(https://image.hm.com/content/dam/global_campaigns/season_08/kids/4078c/4078C-3x2-1.jpg?imwidth=657);
@@ -56,7 +57,7 @@ body{
   margin-top: 30px;
 }
 
-.product-img-5{
+.product-img-5 {
   width: 100%;
   height: 640px;
   background-image: url(https://image.hm.com/content/dam/TOOLBOX/PRE_SEASON/2023_s08/september_2023/TCL7223-3x2.jpg?imwidth=657);
@@ -65,8 +66,8 @@ body{
   margin-top: 24px;
 }
 
-.pro-bg{
-  background-image: linear-gradient(rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.35));
+.pro-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
   height: 100%;
   color: white;
   display: flex;
@@ -74,7 +75,7 @@ body{
   justify-content: space-between;
 }
 
-.pro-bg-5{
+.pro-bg-5 {
   /* background-image: linear-gradient(rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.35)); */
   height: 100%;
   color: white;
@@ -83,7 +84,7 @@ body{
   justify-content: space-between;
 }
 
-.pro-tag{
+.pro-tag {
   /* border: 1px solid green; */
   display: flex;
   align-items: center;
@@ -92,7 +93,7 @@ body{
   margin-right: 75px;
 }
 
-.pro-tag-2{
+.pro-tag-2 {
   /* border: 1px solid green; */
   display: flex;
   align-items: center;
@@ -101,7 +102,7 @@ body{
   margin-right: 375px;
 }
 
-.pro-tag-3{
+.pro-tag-3 {
   /* border: 1px solid green; */
   display: flex;
   align-items: center;
@@ -109,7 +110,7 @@ body{
   margin-left: 10px;
 }
 
-.pro-tag-4{
+.pro-tag-4 {
   /* border: 1px solid green; */
   display: inline-block;
   margin-top: 280px;
@@ -119,7 +120,7 @@ body{
   align-items: center;
 }
 
-.pro-tag-5{
+.pro-tag-5 {
   /* border: 1px solid green; */
   display: flex;
   align-items: center;
@@ -128,25 +129,25 @@ body{
   margin-right: 265px;
 }
 
-.up-arrow-icon{
+.up-arrow-icon {
   color: rgb(34, 34, 34);
   font-size: 35px;
   margin-bottom: -20px;
 }
 
-.left-arrow-icon{
+.left-arrow-icon {
   color: rgb(34, 34, 34);
   font-size: 35px;
   margin-right: -9px;
 }
 
-.right-arrow-icon{
+.right-arrow-icon {
   color: rgb(34, 34, 34);
   font-size: 35px;
   margin-left: -9px;
 }
 
-.tag-price{
+.tag-price {
   background-color: rgb(34, 34, 34);
   border-radius: 4px;
   color: white;
@@ -155,53 +156,58 @@ body{
   font-weight: 500;
 }
 
-.pro-text > p:nth-child(1){
+.pro-text>p:nth-child(1) {
   font-size: 175px;
   font-weight: 700;
   text-align: center;
   margin-bottom: -30px;
 }
-.pro-text-2 > p:nth-child(1){
+
+.pro-text-2>p:nth-child(1) {
   font-size: 42px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 5px;
 }
-.pro-text-3 > p:nth-child(1){
+
+.pro-text-3>p:nth-child(1) {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 5px;
 }
 
-.pro-text-4 > p:nth-child(1){
+.pro-text-4>p:nth-child(1) {
   font-size: 42px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 5px;
 }
 
-.pro-text > p:nth-child(2), .pro-text-2 > p:nth-child(2),.pro-text-4 > p:nth-child(2){
+.pro-text>p:nth-child(2),
+.pro-text-2>p:nth-child(2),
+.pro-text-4>p:nth-child(2) {
   font-size: 14px;
   font-weight: 500;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.pro-text-3 > p:nth-child(2){
+.pro-text-3>p:nth-child(2) {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.pro-button{
+.pro-button {
   display: flex;
   justify-content: center;
   margin-bottom: 55px;
 }
 
-.shop-button, .inspired-button{
+.shop-button,
+.inspired-button {
   border: none;
   border-radius: 0;
   background-color: white;
@@ -212,7 +218,7 @@ body{
   margin: 0px 4px;
 }
 
-.banner-category{
+.banner-category {
   background-image: url(https://www2.hm.com/content/dam/global_campaigns/season_08/ladies/1008/1008-3x1-alt-2-autumn-winter-2023-drop-1.jpg);
   background-position: center;
   background-size: cover;
@@ -223,7 +229,7 @@ body{
   margin-top: 25px;
 }
 
-.banner-content{
+.banner-content {
   /* border: 1px solid red; */
   color: white;
   display: flex;
@@ -231,81 +237,81 @@ body{
   align-items: center;
 }
 
-.banner-content > p:nth-child(1){
+.banner-content>p:nth-child(1) {
   font-size: 15px;
   font-weight: 500;
 }
 
-.banner-content > p:nth-child(2){
+.banner-content>p:nth-child(2) {
   font-size: 11px;
   margin-top: 2px;
 }
 
-.ban-cat-button{
+.ban-cat-button {
   margin-top: 17px;
 }
 
-.ban-cat-button button{
+.ban-cat-button button {
   border: none;
   padding: 8px;
   font-size: 16px;
-  font-weight:  600;
+  font-weight: 600;
   margin: 0px 4px;
 }
 
-.popular-categories{
+.popular-categories {
   margin-top: 20px;
   margin-bottom: 45px;
 }
 
-.popular-categories > P:nth-child(1){
+.popular-categories>P:nth-child(1) {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.pop-grid{
+.pop-grid {
   display: flex;
   justify-content: space-between;
 }
 
-.pop-cat-content{
+.pop-cat-content {
   text-align: center;
 }
 
-.pop-cat-layout{
+.pop-cat-layout {
   /* border: 1px solid blue; */
   width: 99px;
 }
 
-.pop-cat-layout > img{
+.pop-cat-layout>img {
   width: 100%;
 }
 
-.pop-cat{
+.pop-cat {
   color: rgb(112, 112, 112);
   font-size: 13px;
   font-weight: 700;
 }
 
-.pop-name{
+.pop-name {
   color: rgb(34, 34, 34);
   font-size: 13px;
   font-weight: 500;
 }
 
-.new-arrivals{
+.new-arrivals {
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
-.new-arrivals > P{
+.new-arrivals>P {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.arrivals-cat > button{
+.arrivals-cat>button {
   border: 1px solid black;
   background-color: white;
   border-radius: 20px;
@@ -315,27 +321,27 @@ body{
   margin-right: 16px;
 }
 
-.arrivals-cat > button:nth-child(1){
+.arrivals-cat>button:nth-child(1) {
   border-color: rgb(229, 0, 16);
   background-color: rgb(229, 0, 16);
   color: white;
 }
 
 
-.arrivals-layout{
+.arrivals-layout {
   /* border: 1px solid blue; */
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
 }
 
-.arrivals-poster{
+.arrivals-poster {
   /* border: 1px solid black; */
   width: 222px;
   height: 377px;
 }
 
-.arrivals-pic-1{
+.arrivals-pic-1 {
   /* border: 1px solid red; */
   width: 100%;
   height: 333px;
@@ -348,7 +354,7 @@ body{
   margin-bottom: 8px;
 }
 
-.arrivals-pic-2{
+.arrivals-pic-2 {
   /* border: 1px solid red; */
   width: 100%;
   height: 333px;
@@ -361,7 +367,7 @@ body{
   margin-bottom: 8px;
 }
 
-.arrivals-pic-3{
+.arrivals-pic-3 {
   /* border: 1px solid red; */
   width: 100%;
   height: 333px;
@@ -374,7 +380,7 @@ body{
   margin-bottom: 8px;
 }
 
-.arrivals-pic-4{
+.arrivals-pic-4 {
   /* border: 1px solid red; */
   width: 100%;
   height: 333px;
@@ -387,7 +393,7 @@ body{
   margin-bottom: 8px;
 }
 
-.heart-container{
+.heart-container {
   /* border: 1px solid black; */
   margin: 0px 16px 18px 0px;
   display: flex;
@@ -396,75 +402,152 @@ body{
   align-items: center;
 }
 
-.heart-logo-regular-0{
+.heart-logo-regular-0 {
   color: white;
   font-size: 14px;
 }
 
-.heart-logo-regular{
+.heart-logo-regular {
   color: black;
   margin-top: -21px;
 }
 
-.heart-logo-solid{
+.heart-logo-solid {
   opacity: 0;
   color: rgb(229, 0, 16);
   margin-top: -21px;
   cursor: pointer;
 }
-.heart-logo-solid:hover{
+
+.heart-logo-solid:hover {
   opacity: 1;
 }
 
-.arrivals-text, .arrivals-price{
+.arrivals-text,
+.arrivals-price {
   color: rgb(34, 34, 34);
   font-size: 13px;
   font-weight: 500;
 }
 
-.slick-dot{
+.slick-dot {
   display: flex;
   justify-content: center;
 }
 
-.circle-logo{
-  margin:0px 5px;
+.circle-logo {
+  margin: 0px 5px;
 }
 
-.circle-logo-solid{
+.circle-logo-solid {
   font-size: 6px;
   margin-top: -8px;
   display: none;
   cursor: pointer;
 }
 
-.slick-dot> div:nth-child(1) .circle-logo-solid{
+.slick-dot>div:nth-child(1) .circle-logo-solid {
   display: block;
   color: rgb(229, 0, 16);
 }
-.circle-logo-regular{
+
+.circle-logo-regular {
   font-size: 6px;
   cursor: pointer;
 }
 
-.circle-logo-regular:hover{
+.circle-logo-regular:hover {
   color: rgb(229, 0, 16);
 }
 
-.slick-dot{
+.slick-dot {
   margin: 12px 0px;
 }
 
-.magazine{
+.magazine {
   background-color: rgb(244, 237, 221);
   width: 100%;
   height: 624px;
-
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
-.magazine-content{
-  border: 1px solid black;
+.magazine-content {
+  /* border: 1px solid black; */
   width: 71%;
-  margin:auto;
+  margin: auto;
+}
+
+.magazine-text {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.magazine-text>h1:nth-child(1) {
+  font-size: 40px;
+}
+
+.magazine-text>p:nth-child(2) {
+  font-size: 11px;
+  margin-top: -3px;
+  letter-spacing: 0.2px;
+}
+
+.magazine-text>p:nth-child(3) {
+  font-size: 13px;
+  margin-top: 10px;
+  text-decoration-line: underline;
+}
+
+.magazine-layout{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 66px;
+}
+
+.magazine-rts-box{
+  /* border: 1px solid black; */
+  background-color: white;
+  width: 288px;
+  height: 372px;
+}
+
+.magazine-rts-img > img{
+  width: 100%;
+  object-fit: cover ;
+}
+
+.magazine-rts-lay{
+  /* border: 1px solid red; */
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.magazine-rts-text{
+  text-align: center;
+}
+
+.magazine-rts-text > p:nth-child(1){
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.magazine-rts-text > p:nth-child(2){
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.mag-rts-dir{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;  
+  margin-bottom: 16px;
+}
+
+.rts-arrowRight{
+  margin-left: 8px;
 }
