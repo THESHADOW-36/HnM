@@ -20,7 +20,7 @@ function Homepage() {
 								<div className="left-arrow-icon"><FontAwesomeIcon icon={faCaretLeft} /></div>
 								<div className="tag-price">
 									<p>Rs. 4,999.00</p>
-									<p>Frilled tulle top ></p>
+									<p>Frilled tulle top <i class="fa-solid fa-angle-right"></i></p>
 								</div>
 							</div>
 						</div>
@@ -43,7 +43,7 @@ function Homepage() {
 							<div className="pro-tag-2">
 								<div className="tag-price">
 									<p>Rs. 1,499.00</p>
-									<p>Slim Fit Fine-knit pol...  ></p>
+									<p>Slim Fit Fine-knit pol...  <i class="fa-solid fa-angle-right"></i></p>
 								</div>
 								<div className="right-arrow-icon"><FontAwesomeIcon icon={faCaretRight} /></div>
 							</div>
@@ -149,7 +149,7 @@ function Homepage() {
 							<div className="pro-tag-3">
 								<div className="tag-price">
 									<p>Rs. 1,499.00</p>
-									<p>Oversized jacquard-k...  ></p>
+									<p>Oversized jacquard-k...  <i class="fa-solid fa-angle-right"></i></p>
 								</div>
 								<div className="right-arrow-icon"><FontAwesomeIcon icon={faCaretRight} /></div>
 							</div>
@@ -262,7 +262,7 @@ function Homepage() {
 								<div className="up-arrow-icon"><i class="fa-solid fa-caret-up"></i></div>
 								<div className="tag-price">
 									<p>Rs. 699.00</p>
-									<p>Wrapover top  ></p>
+									<p>Wrapover top  <i class="fa-solid fa-angle-right"></i></p>
 								</div>
 							</div>
 						</div>
@@ -284,7 +284,7 @@ function Homepage() {
 							<div className="pro-tag-5">
 								<div className="tag-price">
 									<p>Rs. 1,799.00</p>
-									<p>Satin shirt  ></p>
+									<p>Satin shirt  <i class="fa-solid fa-angle-right"></i></p>
 								</div>
 							</div>
 						</div>
