@@ -3,10 +3,17 @@ import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faHeart, faUser } from '@fortawesome/free-regular-svg-icons'
-
-
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+	const router = useNavigate()
+	function menPageSite(){
+		router("/men-page")
+	}
+	function signInSite(){
+		router("/sign-in")
+	}
+
 	return (
 		<div className="nav-bg">
 			<div className="nav-box">
@@ -22,7 +29,7 @@ function Navbar() {
 				</div>
 
 				<div className="nav-right-text">
-					<div className="nav-sign-in">
+					<div className="nav-sign-in" onClick={signInSite}>
 						<div className="user-logo"><FontAwesomeIcon icon={faUser} /></div>
 						<p>Sign in</p>
 					</div>
@@ -44,7 +51,7 @@ function Navbar() {
 				<div></div>
 				<div className="nav-category">
 					<p>Ladies</p>
-					<p>Men</p>
+					<p onClick={menPageSite}>Men</p>
 					<p>Divided</p>
 					<p>Baby</p>
 					<p>Kids</p>

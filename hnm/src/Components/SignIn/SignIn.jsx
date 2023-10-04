@@ -1,13 +1,22 @@
 import React from "react";
 import "./SignIn.css"
+import { useNavigate } from "react-router-dom";
 const SignIn = () => {
+   const router = useNavigate()
+   function closeButton(){
+      router("/")
+   }
+   function becomeAMember(){
+      router("/become-a-member")
+   }
+
    return (
       <div className="sign-in-bg">
          <div className="sign-in-lay">
             <div className="sign-in">
                <div className="sign-in-top">
                   <p>Sign in</p>
-                  <div className="close-mark"><i class="fa-solid fa-xmark"></i></div>
+                  <div className="close-mark" onClick={closeButton}><i class="fa-solid fa-xmark"></i></div>
                </div>
                <p className="voucher">Become a member — don’t miss out on deals, offers, discounts and bonus vouchers.</p>
 
@@ -34,7 +43,7 @@ const SignIn = () => {
 
                <button className="sign-in-butt">Sign in</button>
 
-               <button className="sign-in-bam">Become a member</button>
+               <button className="sign-in-bam" onClick={becomeAMember}>Become a member</button>
 
                <div className="mem-info"><p>Membership info</p></div>
             </div>

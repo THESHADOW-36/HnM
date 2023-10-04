@@ -6,12 +6,33 @@
    padding: 10px 0px;
 }
 
-.hnm-homepage>span {
+.hnm-director-text {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: center;
+   font-size: 11px;
+   padding: 10px 0px;
+}
+
+.hnm-director-text>p:nth-child(1) {
+   cursor: pointer;
+}
+
+.hnm-director-text>p:nth-child(1):hover {
    color: rgb(229, 0, 16);
 }
 
+.hnm-director-text>p:nth-child(3) {
+   color: rgb(229, 0, 16);
+   cursor: pointer;
+}
+
+.hnm-slash {
+   margin: 0px 4px;
+}
+
 .men-pg-lay {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    width: 100%;
    display: flex;
    padding: 0px 50px 0px 30px;
@@ -35,23 +56,103 @@
 .men-pg-cat-text>p {
    font-size: 13px;
    padding: 4px 0px;
+   cursor: pointer;
+}
+
+.men-pg-cat-text>p:hover {
+   color: rgb(229, 0, 16);
+   text-decoration-line: underline;
 }
 
 
 
 .men-pg-content {
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    width: 60.7%;
    margin: 0px 0px 0px 18px;
 }
 
+
+
+.men-pg-banner-category {
+   background-image: url(https://www2.hm.com/content/dam/global_campaigns/season_08/ladies/1028a/1028A-3x1-autumn-winter-2023-drop-2.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 138px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.men-pg-banner-content {
+   /* border: 1px solid red; */
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.men-pg-banner-content>p:nth-child(1) {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.men-pg-banner-content>p:nth-child(2) {
+   font-size: 11px;
+   margin-top: 2px;
+}
+
+.men-pg-ban-cat-button {
+   margin-top: 17px;
+}
+
+.men-pg-ban-cat-button button {
+   border: none;
+   background-color: white;
+   padding: 8px;
+   font-size: 16px;
+   font-weight: 600;
+   margin: 0px 4px;
+   cursor: pointer;
+}
+
+.men-pg-ban-cat-button button:hover {
+   background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
 .men-pg-img-1 {
    /* border: 1px solid navy; */
    width: 100%;
-   height: 640px;
+   height: 547.312px;
    background-image: url(https://image.hm.com/content/dam/global_campaigns/season_08/men/3078l/3078L-3x2.jpg?imwidth=657);
    background-position: center;
    background-size: cover;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+.men-pg-img-2 {
+   /* border: 1px solid navy; */
+   width: 100%;
+   height: 547.312px;
+   background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/global_campaigns/season_08/men/3128/3128-v2-3x2-4-aw-2023-men.jpg]&scale=size[795]&sink=format[jpeg],quality[80]&quot;);
+   background-position: center;
+   background-size: cover;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+.men-pg-img-3 {
+   /* border: 1px solid navy; */
+   width: 100%;
+   height: 547.312px;
+   background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2023_s08/september_2023/TCM8028_3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]&quot;);
+   background-position: center;
+   background-size: cover;
+   margin-top: 30px;
+   cursor: pointer;
 }
 
 .men-pg-bg {
@@ -63,13 +164,23 @@
    justify-content: space-between;
 }
 
+.men-pg-img-2 .men-pg-sect-1 {
+   margin-top: 185px;
+   margin-right: 360px;
+}
+
+.men-pg-img-3 .men-pg-bg {
+   display: flex;
+   justify-content: flex-end;
+}
+
 .men-pg-tag-1 {
    /* border: 1px solid green; */
    display: flex;
    align-items: center;
    justify-content: flex-end;
-   margin-top: 225px;
-   margin-right: 375px;
+   margin-top: 190px;
+   margin-right: 280px;
 }
 
 .tag-price {
@@ -84,7 +195,7 @@
 .right-arrow-icon {
    color: rgb(34, 34, 34);
    font-size: 35px;
-   margin-left: -9px;
+   margin-left: -7px;
 }
 
 .men-pg-text-1>p:nth-child(1) {
@@ -101,19 +212,269 @@
    margin-bottom: 20px;
 }
 
+.men-pg-text-2>p:nth-child(1) {
+   font-size: 70px;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.men-pg-text-3>p:nth-child(1) {
+   font-size: 32px;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 8px;
+}
+
+.men-pg-text-3>p:nth-child(2) {
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
 .pro-button {
    display: flex;
    justify-content: center;
    margin-bottom: 55px;
- }
+}
 
- .shop-button{
-  border: none;
-  border-radius: 0;
-  background-color: white;
-  padding: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  color: rgb(34, 34, 34);
-  margin: 0px 4px;
+.pro-button button {
+   background-color: white;
+   cursor: pointer;
+}
+
+.pro-button button:hover {
+   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.shop-button {
+   border: none;
+   border-radius: 0;
+   background-color: white;
+   padding: 8px;
+   font-size: 16px;
+   font-weight: 600;
+   color: rgb(34, 34, 34);
+   margin: 0px 4px;
+}
+
+
+
+
+.new-looks-categories {
+   margin-top: 20px;
+   margin-bottom: 45px;
+}
+
+.new-looks-categories>P:nth-child(1) {
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 8px;
+}
+
+.nl-cat-grid {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+}
+
+.nl-cat-layout {
+   /* border: 1px solid blue; */
+   width: 101px;
+}
+
+.nl-cat-layout>img {
+   width: 100%;
+   cursor: pointer;
+}
+
+.nl-cat {
+   /* border: 1px solid red; */
+   color: rgb(34, 34, 34);
+   font-size: 13px;
+   font-weight: 500;
+   display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   margin-top: 2px;
+   cursor: pointer;
+}
+.nl-cat:hover{
+   text-decoration: underline;
+}
+
+.nl-name {
+   color: rgb(34, 34, 34);
+   font-size: 13px;
+   font-weight: 500;
+}
+
+.nl-cat-colors-1,
+.nl-cat-colors-2,
+.nl-cat-colors-3,
+.nl-cat-colors-4,
+.nl-cat-colors-5,
+.nl-cat-colors-6 {
+   font-size: 8px;
+   display: flex;
+   margin-top: 3px;
+   cursor: pointer;
+}
+
+
+
+.nl-cat-colors-1>div:nth-child(1) {
+   color: rgb(110, 123, 107);
+}
+
+.nl-cat-colors-1>div:nth-child(2) {
+   color: rgb(39, 38, 40);
+   margin: 0px 4px;
+}
+
+.nl-cat-colors-1>div:nth-child(3) {
+   color: rgb(159, 128, 97);
+   margin-right: 4px;
+}
+
+.nl-cat-colors-2>div:nth-child(1) {
+   color: rgb(232, 233, 231);
+}
+
+.nl-cat-colors-2>div:nth-child(2) {
+   color: rgrgb(51, 54, 58);
+   margin: 0px 4px;
+}
+
+.nl-cat-colors-2>div:nth-child(3) {
+   color: rgb(111, 111, 114);
+}
+
+.nl-cat-colors-2>div:nth-child(4) {
+   color: rgb(152, 126, 96);
+   margin: 0px 4px;
+}
+
+.nl-cat-colors-3>div:nth-child(1) {
+   color: rgb(39, 38, 40);
+}
+
+.nl-cat-colors-4>div:nth-child(1) {
+   color: rgb(46, 46, 48);
+}
+
+.nl-cat-colors-4>div:nth-child(2) {
+   color: rgb(121, 130, 157);
+   margin: 0px 4px;
+}
+
+
+.nl-cat-colors-5>div:nth-child(1) {
+   color: rgb(146, 133, 121);
+}
+
+.nl-cat-colors-5>div:nth-child(2) {
+   color: rgb(39, 38, 40);
+   margin: 0px 4px;
+}
+
+.nl-cat-colors-6>div:nth-child(1) {
+   color: rgb(57, 65, 120);
+}
+
+.nl-cat-colors-6>div:nth-child(2) {
+   color: rgb(104, 81, 60);
+   margin: 0px 4px;
+}
+
+.nl-member-price {
+   font-size: 13px;
+   margin-top: 16px;
+}
+
+
+.nl-cat-arrows {
+   /* border: 1px solid red; */
+   width: 22px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.nl-cat-arrows:hover{
+   color: red;
+}
+
+
+
+.spcl-treat-banner {
+   background-color: rgb(246, 235, 238);
+   height: 88px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
+.spcl-treat-banner-text {
+   /* border: 1px solid red; */
+   width: 100%;
+   margin-left: 38px;
+   text-align: center;
+   letter-spacing: 0.3px;
+   padding-bottom: 4px;
+}
+
+.spcl-treat-banner-text>p:nth-child(1) {
+   color: rgb(229, 0, 16);
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.spcl-treat-banner-text>p:nth-child(2) {
+   font-size: 11px;
+   margin-top: 2px;
+}
+
+.info-icon {
+   border: 1px solid black;
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 18px;
+}
+
+.men-clothing-text {
+   text-align: center;
+   margin-top: 26px;
+}
+
+.men-clothing-text>p:nth-child(1) {
+   font-size: 40px;
+   font-weight: 500;
+   letter-spacing: 0.5px;
+   margin-bottom: 26px;
+}
+
+.men-clothing-text>p:nth-child(2) {
+   font-size: 13px;
+   line-height: 20px;
+   text-align: justify;
+   letter-spacing: 0.2px;
+}
+
+.men-clothing-text>p:nth-child(2)>span {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.men-clothing-text>p:nth-child(3) {
+   font-size: 13px;
+   margin-top: 40px;
+   margin-bottom: 35px;
+   text-decoration: underline;
+   cursor: pointer;
 }

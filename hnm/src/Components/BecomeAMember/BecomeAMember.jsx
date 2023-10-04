@@ -1,8 +1,17 @@
 import React from "react";
 import "./BecomeAMember.css"
+import { useNavigate } from "react-router-dom";
 
 
 const BecomeAMember = () => {
+   const router = useNavigate()
+
+   function closeButton(){
+      router("/")
+   }
+   function signInSite() {
+      router("/sign-in")
+   }
    return (
       <div className="bam-bg">
          <div className="bam-lay">
@@ -10,7 +19,7 @@ const BecomeAMember = () => {
 
                <div className="bam-top">
                   <p>BECOME A MEMBER</p>
-                  <div className="close-mark"><i class="fa-solid fa-xmark"></i></div>
+                  <div className="close-mark" onClick={closeButton}><i class="fa-solid fa-xmark"></i></div>
                </div>
                <p className="voucher">Become a member — don’t miss out on deals, offers, discounts and bonus vouchers.</p>
 
@@ -58,14 +67,14 @@ const BecomeAMember = () => {
                </div>
 
                <p className="i-agree-text">By clicking ‘Become a member’, I agree to the H&M Membership</p>
-               
+
                <p className="terms-and-conditions">Terms and conditions.</p>
 
                <p className="privacy-notice">To give you the full membership experience, we will process your personal data in accordance with the H&M's <span>Privacy Notice.</span></p>
 
                <button className="bam-butt">Become a member</button>
 
-               <button className="bam-bam-butt">Sign in</button>
+               <button className="bam-bam-butt" onClick={signInSite}>Sign in</button>
             </div>
          </div>
       </div>
