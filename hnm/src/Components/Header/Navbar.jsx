@@ -1,21 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faHeart, faUser } from '@fortawesome/free-regular-svg-icons'
 import { useNavigate } from "react-router-dom";
+import SignIn from "../SignIn/SignIn";
+import BecomeAMember from "../BecomeAMember/BecomeAMember";
 
 function Navbar() {
+	const [signInVisibility, setSignInVisibility] = useState(false)
+	
+	const [bamVisibility, setBamVisibility] = useState(false)
+
+	function displaySignin() {
+		setSignInVisibility(signInVisibility => signInVisibility = true)
+	}
+
 	const router = useNavigate()
-	function menPageSite(){
+	function menPageSite() {
 		router("/men-page")
 	}
-	function signInSite(){
-		router("/sign-in")
-	}
+	// function signInSite() {
+	// 	router("/sign-in")
+	// }
 
 	return (
 		<div className="nav-bg">
+			<SignIn display={signInVisibility} setDisplay={setSignInVisibility} bamDisplay={bamVisibility} setBamDisplay={setBamVisibility} />
+			<BecomeAMember display={signInVisibility} setDisplay={setSignInVisibility} bamDisplay={bamVisibility} setBamDisplay={setBamVisibility} />
 			<div className="nav-box">
 				<div className="nav-left-text">
 					<p>Customer Service</p>
@@ -29,7 +41,7 @@ function Navbar() {
 				</div>
 
 				<div className="nav-right-text">
-					<div className="nav-sign-in" onClick={signInSite}>
+					<div className="nav-sign-in" onClick={displaySignin}>
 						<div className="user-logo"><FontAwesomeIcon icon={faUser} /></div>
 						<p>Sign in</p>
 					</div>

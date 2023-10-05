@@ -124,6 +124,9 @@
    margin-top: 36px;
    cursor: pointer;
 }
+.sign-in-butt:hover{
+   background-color: rgba(34, 34, 34, 0.8);
+}
 
 .sign-in-bam{
    border: 1px solid rgb(34, 34, 34);
@@ -134,6 +137,10 @@
    font-weight: 600;
    margin-top: 16px;
    cursor: pointer;
+}
+.sign-in-bam:active {
+   border: 1px solid rgba(34, 34, 34, 0.6);
+   color: rgba(0, 0, 0, 0.6);
 }
 
 .mem-info{
