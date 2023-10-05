@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import SignIn from './Components/SignIn/SignIn';
 import BecomeAMember from './Components/BecomeAMember/BecomeAMember';
 import Menpage from './Components/Menpage/Menpage';
+import MenSinglePage from './Components/MenSinglePage/MenSinglePage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/sign-in' element={<SignIn />} />
         <Route exact path='/become-a-member' element={<BecomeAMember />} />
         <Route exact path='/men-page' element={<Menpage />} />
+        <Route exact path='/men-shirt' element={<MenSinglePage />} />
       </Routes>
       <Footer />
     </div>
