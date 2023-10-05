@@ -1,0 +1,24 @@
+.men-shirts-nav-text {
+   border: 1px solid red;
+   text-align: center;
+   font-size: 11px;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   padding: 8px 0px;
+   letter-spacing: 0.3px;
+}
+
+.msnt-slash {
+   margin: 0px 4px;
+}
+
+.men-shirts-nav-text>p:last-child {
+   color: rgb(229, 0, 16);
+}
+
+.men-shirts{
+   border: 1px solid black;
+   width: 98%;
+   display: flex;
+}

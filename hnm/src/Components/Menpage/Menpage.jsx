@@ -8,6 +8,9 @@ const Menpage = () => {
    function homePageSite() {
       router("/")
    }
+   function menSinglePageSite(){
+      router("/men-shirt")
+   }
    return (
       <div className="men-page">
          <div className="hnm-director-text">
@@ -140,8 +143,8 @@ const Menpage = () => {
 
                      <div className="nl-cat-content">
                         <div className="nl-cat-layout">
-                           <img src="https://lp2.hm.com/hmgoepprod?set=source[/e8/ba/e8baa968ff5222c997c2eb3af8c5fbc38f5bbc16.jpg],origin[dam],category[men_jacketscoats_shirtjackets],type[DESCRIPTIVESTILLLIFE],res[w],hmver[2]&call=url[file:/product/main]" alt="" />
-                           <p className="nl-cat">Twill overshirt</p>
+                           <img onClick={menSinglePageSite} src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7e%2Fdd%2F7eddd2915739c10b4ec1b19e940dc03075058283.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_shirtjackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D" alt="" />
+                           <p className="nl-cat" onClick={menSinglePageSite}>Twill overshirt</p>
                            <p className="nl-name">Rs.2,699.00</p>
                            <div className="nl-cat-colors-2">
                               <div><i class="fa-solid fa-circle"></i></div>

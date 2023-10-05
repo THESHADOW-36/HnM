@@ -6,12 +6,14 @@ import Navbar from './Components/Header/Navbar';
 import Footer from './Components/Footer/Footer';
 import Menpage from './Components/Menpage/Menpage';
 import MenSinglePage from './Components/MenSinglePage/MenSinglePage';
+import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
+        <Route exact path='*' element={<PageNotFound />} />
         <Route exact path='/' element={<Homepage />} />
         <Route exact path='/navbar' element={<Navbar />} />
         <Route excat path='/footer' element={<Footer />} />
