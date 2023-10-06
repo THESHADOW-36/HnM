@@ -1,5 +1,5 @@
 .men-shirts-nav-text {
-   border: 1px solid red;
+   /* border: 1px solid red; */
    text-align: center;
    font-size: 11px;
    font-weight: 500;
@@ -17,8 +17,153 @@
    color: rgb(229, 0, 16);
 }
 
-.men-shirts{
+.men-shirts {
    border: 1px solid black;
-   width: 98%;
+   width: 95.3%;
+   margin: auto;
    display: flex;
+   justify-content: space-between;
+   margin-top: 24px;
+}
+
+.men-shirts-layout {
+   /* border: 1px solid red; */
+   width: 65.9%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 4px;
+}
+
+.men-shirts-layout > div {
+   /* border: 1px solid green; */
+   width: 49.7%;
+   margin-top: 4px;
+   cursor: pointer;
+}
+
+.men-shirts-layout > div >img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.men-shirts-details {
+   border: 1px solid blue;
+   width: 31.4%;
+   margin-top: 36px;
+}
+
+.men-shirts-name{
+   display: flex;
+   justify-content: space-between;
+   font-weight: 500;
+}
+
+.men-shirts-heart{
+   margin-right: 10px;
+}
+.men-shirts-heart div:nth-child(1){
+   cursor: pointer;
+}
+.men-shirts-heart div:nth-child(2){
+   margin-top: -21px;
+   opacity: 0;
+   cursor: pointer;
+}
+
+.men-shirts-heart div:nth-child(2):hover{
+   opacity: 1;
+   color: rgb(229, 0, 16);
+}
+
+.men-shirts-price{
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 8px;
+}
+
+.men-shirts-cat p:nth-child(1){
+   color: rgb(34, 34, 34);
+   font-size: 13px;
+   font-weight: 500;
+   letter-spacing: 1.3px;
+   margin-top: 28px;
+}
+
+.men-shirts-cat-img{
+   display: flex;
+   margin-top: 18px;
+}
+
+.men-shirts-cat-img img{
+   border: 1px solid white;
+   margin-right: 1.5px;
+}
+
+.men-shirts-cat-img div:nth-child(1) img{
+   border: 1px solid black;
+}
+
+.men-shirts-add-button button{
+   border: 1px solid rgb(34, 34, 34);
+   background-color: rgb(34, 34, 34);
+   color: white;
+   width: 100%;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 13px 0px;
+   margin-top: 30px;
+}
+
+.men-shirts-add-button button i{
+   margin-right: 8px;
+}
+
+.men-shirts-f-s{
+   margin-top: 30px;
+}
+
+.men-shirts-find-in-store,.men-shirts-delivery-duration{
+   display: flex;
+}
+
+.men-shirts-delivery-duration{
+   margin-top: 5px;
+}
+
+.men-shirts-info-icon {
+   border: 1px solid black;
+   width: 14px;
+   height: 13px;
+   border-radius: 10px;
+   font-size: 10.2px;
+   font-weight: 900;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 1px;
+   padding-bottom: 2px;
+}
+
+.men-shirts-f-s > div > p{
+   font-size: 13px;
+   margin-left: 6px;
+}
+
+.men-shirts-dap{
+   text-align: center;
+   font-weight: 500;
+   margin-top: 14px;
+}
+
+.men-shirts-reviews{
+   display: flex;
+   margin-top: 60px;
+}
+
+.men-shirts-review-stars{
+   display: flex;
+   margin-right: 6px;
 }
