@@ -55,6 +55,13 @@
    margin-top: 36px;
 }
 
+.men-shirts-position{
+   border: 1px solid red;
+   position: sticky;
+   top: -60%;
+   bottom: 0;
+}
+
 .men-shirts-name{
    display: flex;
    justify-content: space-between;
@@ -166,4 +173,48 @@
 .men-shirts-review-stars{
    display: flex;
    margin-right: 6px;
+}
+
+.men-shirts-size{
+   margin-top: 20px;
+}
+
+.men-shirts-size > p:nth-child(1){
+   font-size: 13px;
+}
+
+.men-shirts-ajustment{
+   border-top: 1px solid black;
+   display: flex;
+   justify-content: center;
+   padding-left: 40px;
+   margin: 8px 0px;
+}
+.men-shirts-ajustment i{
+   margin-top: -1px;
+}
+
+.men-shirts-size-range{
+   font-size: 13px;
+   color: rgb(112, 112, 112);
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+
+.men-shirts-summary{
+   margin-top: 74px;
+}
+
+.men-shirts-description{
+   border-top: 1px solid rgba(0, 0, 0, 0.2);
+   font-weight: 600;
+   display: flex;
+   justify-content: space-between;
+   padding: 14px 24px;
+   cursor: pointer;
+}
+
+.men-shirts-description:hover{
+   color: rgb(229, 0, 16);
 }
