@@ -1,0 +1,40 @@
+.navbar {
+   background-color: rgba(22, 22, 23, 0.9);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar-content {
+   /* border: 1px solid white; */
+   width: 72.5%;
+   color: rgba(255, 255, 255, 0.8);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.apple-logo {
+   color: white;
+}
+
+.navbar-text {
+   /* border: 1px solid green; */
+   width: 83.2%;
+   font-size: 12px;
+   letter-spacing: 0.2px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-search-bag {
+   display: flex;
+}
+
+.navbar-search-logo {
+   margin: 0px 40px 0px 0px;
+}

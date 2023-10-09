@@ -1,0 +1,143 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family:  "SF Pro";
+   /* "SF Pro Text", */
+   /* "Myriad Set Pro", */
+   /* "SF Pro Icons", */
+   /* "Apple Legacy Chevron", */
+   /* "Helvetica Neue", */
+   /* "Helvetica", */
+   /* "Arial", */
+   /* sans-serif; */
+   /* overflow-x: hidden; */
+}
+
+.navbar-bg {
+   background-color: rgb(29, 29, 31);
+   width: 100%;
+   height: 44px;
+}
+
+.homepage {
+   border: 1px solid red;
+   width: 100%;
+}
+
+.bankoffers-ad {
+   background-color: rgb(29, 29, 31);
+   width: 100%;
+   height: 44px;
+   color: white;
+   font-size: 14.2px;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bankoffers-ad-shopNow {
+   /* border: 1px solid red; */
+   display: flex;
+   margin-left: 6px;
+   color: rgb(0, 102, 204);
+}
+
+.bankoffers-right-logo {
+   margin-left: 4px;
+   margin-top: 2px;
+}
+
+.iPhone-15-pro{
+   width: 100%;
+   height: 580px;
+   background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+   background-position:bottom;
+   background-size: auto;
+}
+
+
+.iPhone-15{
+   width: 100%;
+   height: 580px;
+   background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+   background-position:bottom;
+   background-size: auto;
+}
+
+
+.watch-series-9{
+   width: 100%;
+   height: 580px;
+   background-image: url(https://www.apple.com/in/home/heroes/apple-watch-series-9/images/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg);
+   background-position:bottom;
+   background-size: auto;
+   margin: 0px 0px 6px 0px;
+}
+
+.product-layout{
+   border: 1px solid blue;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.apple-products{
+   /* border: 1px solid green; */
+   width: 656px;
+   height: 580px;
+   margin: 6px 0px;
+}
+
+.ipad-pro{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://www.apple.com/in/home/promos/ipad-pro/images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.watch-ultra-2{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.macBook-air-15{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.airPods-pro{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.trade-in{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+
+.homePod-mini{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://www.apple.com/v/home/be/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+   background-position: center;
+   background-size: cover;
+}
