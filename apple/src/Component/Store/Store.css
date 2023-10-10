@@ -1,0 +1,72 @@
+.navbar-bg {
+	background-color: rgb(29, 29, 31);
+	width: 100%;
+	height: 44px;
+}
+
+.store-credit-offer {
+	border: 1px solid red;
+	width: 100%;
+	height: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sco-content {
+	border: 1px solid green;
+	width: 72.5%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	color: rgb(29, 29, 31);
+}
+
+.sco-text {
+	display: flex;
+	letter-spacing: 0.1px;
+}
+
+.sco-shopiPhone {
+	/* border: 1px solid red; */
+	display: flex;
+	margin-left: 6px;
+	color: rgb(0, 102, 204);
+}
+
+.sco-right-logo {
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+.sco-left-arrow,
+.sco-right-arrow {
+	color: rgb(134, 134, 139);
+	margin-top: 2px;
+}
+
+.store-content-2 {
+	border: 1px solid black;
+	background-color: rgb(245, 245, 247);
+}
+
+.store-text-line {
+	border: 1px solid blue;
+	width: 72.5%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.store-text-line > p{
+	border: 1px solid red;
+	width: 64%;
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+
+.shv-layout {
+	display: flex;
+}
