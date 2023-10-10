@@ -174,7 +174,18 @@ const Homepage = () => {
          </div>
 
          <div className="tv-plus-layout">
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/BkCQwrg5nkdzmB4uocPNhQ/980x551.jpg" alt="" />
+            <div className="tv-plus">
+               <img src="https://is1-ssl.mzstatic.com/image/thumb/BkCQwrg5nkdzmB4uocPNhQ/980x551.jpg" alt="" />
+            </div>
+            <div className="tv-plu-slick">
+               <div className="slick-1"><i class="fa-solid fa-circle fa-2xs"></i></div>
+               <div className="slick-2"><i class="fa-solid fa-circle fa-2xs"></i></div>
+               <div className="slick-3"><i class="fa-solid fa-circle fa-2xs"></i></div>
+               <div className="slick-4"><i class="fa-solid fa-circle fa-2xs"></i></div>
+               <div className="slick-5"><i class="fa-solid fa-circle fa-2xs"></i></div>
+               <div className="slick-6"><i class="fa-solid fa-circle fa-2xs"></i></div>
+               <div className="slick-7"><i class="fa-solid fa-circle fa-2xs"></i></div>
+            </div>
          </div>
       </div>
    )

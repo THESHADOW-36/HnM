@@ -35,9 +35,14 @@ body {
    color: white;
    font-size: 14.2px;
    font-weight: 500;
+   letter-spacing: 0.3px;
    display: flex;
    align-items: center;
    justify-content: center;
+}
+
+.bankoffers-ad>p {
+   margin-bottom: 4px;
 }
 
 .bankoffers-ad-shopNow {
@@ -61,6 +66,7 @@ body {
    background-size: auto;
    display: flex;
    justify-content: center;
+   cursor: pointer;
 }
 
 .iPhone-15 {
@@ -72,6 +78,7 @@ body {
    display: flex;
    justify-content: center;
    margin-top: 12px;
+   cursor: pointer;
 }
 
 
@@ -83,6 +90,7 @@ body {
    background-position: bottom;
    background-size: auto;
    margin: 12px 0px 6px 0px;
+   cursor: pointer;
 }
 
 
@@ -149,7 +157,7 @@ body {
 }
 
 .product-layout {
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap;
@@ -163,6 +171,7 @@ body {
    background-position: center;
    background-size: cover;
    color: white;
+   cursor: pointer;
 }
 
 
@@ -173,6 +182,7 @@ body {
    background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
    background-position: center;
    background-size: cover;
+   cursor: pointer;
 }
 
 
@@ -183,6 +193,7 @@ body {
    background-image: url(https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
    background-position: center;
    background-size: cover;
+   cursor: pointer;
 }
 
 
@@ -194,6 +205,7 @@ body {
    background-position: center;
    background-size: cover;
    color: white;
+   cursor: pointer;
 }
 
 
@@ -204,6 +216,7 @@ body {
    background-image: url(https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
    background-position: center;
    background-size: cover;
+   cursor: pointer;
 }
 
 
@@ -214,11 +227,8 @@ body {
    background-image: url(https://www.apple.com/v/home/be/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg);
    background-position: center;
    background-size: cover;
+   cursor: pointer;
 }
-
-
-
-
 
 .product-text-box-1,
 .product-text-box-3,
@@ -309,4 +319,37 @@ body {
    font-size: 12px;
    margin-top: 4px;
    margin-left: 4px;
+}
+
+.tv-plus {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 6px;
+}
+
+.tv-plus>img {
+   width: 980px;
+   height: 523px;
+   object-fit: cover;
+}
+
+.tv-plu-slick {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.tv-plu-slick>div {
+   margin: 0px 6px;
+}
+
+.slick-1,
+.slick-2,
+.slick-3,
+.slick-4,
+.slick-6,
+.slick-7 {
+   color: rgba(0, 0, 0, 0.42);
 }
