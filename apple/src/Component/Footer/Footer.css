@@ -21,7 +21,7 @@
  }
 
  .footer-box {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 72.4%;
     margin: auto;
  }
@@ -37,7 +37,7 @@
  }
 
  .footer-content-layout {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 18px;
