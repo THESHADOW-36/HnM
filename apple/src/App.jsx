@@ -9,7 +9,7 @@ import Store from "./Component/Store/Store";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/store" element={<Store />} />
