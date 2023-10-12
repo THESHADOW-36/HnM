@@ -19,6 +19,12 @@
 }
 
 .apple-logo {
+   color: rgba(255, 255, 255, 0.8);
+   cursor: pointer;
+   transition: 0.6s;
+}
+
+.apple-logo:hover {
    color: white;
 }
 
@@ -31,10 +37,31 @@
    justify-content: space-between;
 }
 
+.navbar-text>p {
+   cursor: pointer;
+   transition: 0.6s;
+}
+
+.navbar-text>p:hover {
+   color: white;
+}
+
 .navbar-search-bag {
    display: flex;
 }
 
 .navbar-search-logo {
    margin: 0px 40px 0px 0px;
+   cursor: pointer;
+   transition: 0.6s;
+}
+
+.navbar-bag-logo {
+   cursor: pointer;
+   transition: 0.6s;
+}
+
+.navbar-search-logo:hover,
+.navbar-bag-logo:hover {
+   color: white;
 }

@@ -245,9 +245,132 @@ const Store = () => {
 						</p>
 					</div>
 				</div>
+
+
+				<div className="store-accessories">
+					<p>Accessories. <span>Essentials that pair perfectly with your favourite devices.</span></p>
+					<div className="sa-content">
+						<p className="sa-empty">
+						</p>
+
+
+						<div className="sa-ad-1">
+							<div className="sa-ad-content">
+								<p className="sa-ad-name">Introducing FineWoven accessories. </p>
+								<p className="sa-ad-specification">Durable micro-twill with a luxurious suede-like feel, made from 68 per cent post-consumer recycled content.</p>
+							</div>
+						</div>
+
+
+						<div className="sa-layout">
+							<div className="sa-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616" alt="" /></div>
+							<div className="sa-product-content">
+								<div className="sa-color-palatte">
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4L3_SW_COLOR?wid=32&hei=32&fmt=jpeg&qlt=95&.v=1693069953764" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4U3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069984396" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069886347" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4Q3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069969869" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4H3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069825324" alt="" /></div>
+								</div>
+								<div className="sa-product-details">
+									<p className="sa-new-product">New</p>
+									<p className="sa-product-name">iPhone 15 Pro FineWoven Case with MagSafe - Taupe</p>
+									<p className="sa-product-price">MRP ₹5900.00 (Incl. of all taxes)</p>
+								</div>
+							</div>
+						</div>
+						<div className="sa-layout">
+							<div className="sa-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT2N3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692994298447" alt="" /></div>
+							<div className="sa-product-content">
+								<div className="sa-color-palatte">
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4L3_SW_COLOR?wid=32&hei=32&fmt=jpeg&qlt=95&.v=1693069953764" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4U3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069984396" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069886347" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4Q3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069969869" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4H3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069825324" alt="" /></div>
+								</div>
+								<div className="sa-product-details">
+									<p className="sa-new-product">New</p>
+									<p className="sa-product-name">iPhone FineWoven Wallet with MagSafe - Black</p>
+									<p className="sa-product-price">MRP ₹5900.00 (Incl. of all taxes)</p>
+								</div>
+							</div>
+						</div>
+						<div className="sa-layout">
+							<div className="sa-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJC3ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692936507700" alt="" /></div>
+							<div className="sa-product-content">
+								<div className="sa-color-palatte">
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJC3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693005422196" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJE3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693005423020" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJ93ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693005420473" alt="" /></div>
+								</div>
+								<div className="sa-product-details">
+									<p className="sa-new-product">New</p>
+									<p className="sa-product-name">45mm Evergreen Magnetic <br /> Link - M/L</p>
+									<p className="sa-product-price">MRP ₹9500.00 (Incl. of all taxes)</p>
+								</div>
+							</div>
+						</div>
+						<div className="sa-layout">
+							<div className="sa-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUH73ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692936516435" alt="" /></div>
+							<div className="sa-product-content">
+								<div className="sa-color-palatte">
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUHA3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693005423915" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUH73ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693005423956" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUHE3ref_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693005424097" alt="" /></div>
+								</div>
+								<div className="sa-product-details">
+									<p className="sa-new-product">New</p>
+									<p className="sa-product-name">41mm Mulberry Modern Buckle - Medium</p>
+									<p className="sa-product-price">MRP ₹14500.00 (Incl. of all taxes)</p>
+								</div>
+							</div>
+						</div>
+						<div className="sa-layout">
+							<div className="sa-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3G3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693593632903" alt="" /></div>
+							<div className="sa-product-content">
+								<div className="sa-color-palatte">
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3E3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1692999094517" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3J3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1692998347289" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069886347" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4Q3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069969869" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4H3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069825324" alt="" /></div>
+								</div>
+								<div className="sa-product-details">
+									<p className="sa-new-product">New</p>
+									<p className="sa-product-name">iPhone 15 FineWoven Case with MagSafe - Pacific Blue</p>
+									<p className="sa-product-price">MRP ₹5900.00 (Incl. of all taxes)</p>
+								</div>
+							</div>
+						</div>
+						<div className="sa-layout">
+							<div className="sa-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT2H3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692915693368" alt="" /></div>
+							<div className="sa-product-content">
+								<div className="sa-color-palatte">
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3E3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1692999094517" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3J3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=95&.v=1692998347289" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069886347" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4Q3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069969869" alt="" /></div>
+									<div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4H3_SW_COLOR?wid=64&hei=64&fmt=jpeg&qlt=90&.v=1693069825324" alt="" /></div>
+								</div>
+								<div className="sa-product-details">
+									<p className="sa-new-product">New</p>
+									<p className="sa-product-name">AirTag FineWoven Key Ring - Black</p>
+									<p className="sa-product-price">MRP ₹3900.00 (Incl. of all taxes)</p>
+								</div>
+							</div>
+						</div>
+
+						<div className="sa-ad-2">
+							<div className="sa-ad-content">
+								<p className="sa-ad-name">Explore all accessories.</p>
+							</div>
+						</div>
+						<p className="sa-empty">
+						</p>
+					</div>
+				</div>
 			</div>
-
-
 		</div>
 	)
 }
