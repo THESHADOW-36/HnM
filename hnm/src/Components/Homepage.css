@@ -433,6 +433,7 @@ body {
 .slick-dot {
   display: flex;
   justify-content: center;
+  margin: 12px 0px;
 }
 
 .circle-logo {
@@ -460,9 +461,6 @@ body {
   color: rgb(229, 0, 16);
 }
 
-.slick-dot {
-  margin: 12px 0px;
-}
 
 .magazine {
   background-color: rgb(244, 237, 221);

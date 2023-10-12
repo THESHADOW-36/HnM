@@ -12,6 +12,8 @@ const MenSinglePage = () => {
             <div className="msnt-slash">/</div>
             <p>Twill overshirt</p>
          </div>
+
+
          <div className="men-shirts">
             <div className="men-shirts-layout">
                <div><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4f%2Fbc%2F4fbce4ae63887ddf5610da8a19623a2593375391.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt="" /></div>
@@ -47,7 +49,15 @@ const MenSinglePage = () => {
                   </div>
 
                   <div className="size-of-shirts">
-                     
+                     <p>Sizes</p>
+                     <div className="sos-box-layout">
+                        <div className="sos-box"><p>XS</p></div>
+                        <div className="sos-box"><p>S</p></div>
+                        <div className="sos-box"><p>M</p></div>
+                        <div className="sos-box"><p>L</p></div>
+                        <div className="sos-box"><p>XL</p></div>
+                        <div className="sos-box"><p>XXL</p></div>
+                     </div>
                   </div>
 
                   <div className="men-shirts-add-button">
@@ -107,6 +117,80 @@ const MenSinglePage = () => {
                </div>
             </div>
          </div>
+
+
+         <div className="style-with">
+            <p>Style with</p>
+            <div className="style-layout">
+               <div className="style-poster">
+                  <div className="style-pic-1">
+                     <div className="heart-container">
+                        <div className="heart-logo-regular-0"><i class="fa-solid fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-regular"><i class="fa-regular fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-solid"><i class="fa-solid fa-heart fa-xl"></i></div>
+                     </div>
+                  </div>
+                  <p className="style-text">Water-repellent puffer gilet</p>
+                  <p className="style-price">Rs.2,999.00</p>
+               </div>
+
+               <div className="style-poster">
+                  <div className="style-pic-2">
+                     <div className="heart-container">
+                        <div className="heart-logo-regular-0"><i class="fa-solid fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-regular"><i class="fa-regular fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-solid"><i class="fa-solid fa-heart fa-xl"></i></div>
+                     </div>
+                  </div>
+                  <p className="style-text">Embroidered-motif cotton cap</p>
+                  <p className="style-price">Rs.799.00</p>
+               </div>
+
+               <div className="style-poster">
+                  <div className="style-pic-3">
+                     <div className="heart-container">
+                        <div className="heart-logo-regular-0"><i class="fa-solid fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-regular"><i class="fa-regular fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-solid"><i class="fa-solid fa-heart fa-xl"></i></div>
+                     </div>
+                  </div>
+                  <p className="style-text">Slim Fit Cropped cargo trousers</p>
+                  <p className="style-price">Rs.2,999.00</p>
+               </div>
+
+               <div className="style-poster">
+                  <div className="style-pic-4">
+                     <div className="heart-container">
+                        <div className="heart-logo-regular-0"><i class="fa-solid fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-regular"><i class="fa-regular fa-heart fa-xl"></i></div>
+                        <div className="heart-logo-solid"><i class="fa-solid fa-heart fa-xl"></i></div>
+                     </div>
+                  </div>
+                  <p className="style-text">Relaxed Fit Appliquéd sweatshirt</p>
+                  <p className="style-price">Rs.1,499.00</p>
+               </div>
+            </div>
+            <div className="slick-dot">
+               <div className="circle-logo">
+                  {/* <div className="circle-logo-regular"><i class="fa-regular fa-circle"></i></div> */}
+                  <div className="circle-logo-regular"><i class="fa-solid fa-circle-dot"></i></div>
+                  <div className="circle-logo-solid"><i class="fa-solid fa-circle"></i></div>
+               </div>
+
+               <div className="circle-logo">
+                  {/* <div className="circle-logo-regular"><i class="fa-regular fa-circle"></i></div> */}
+                  <div className="circle-logo-regular"><i class="fa-solid fa-circle-dot"></i></div>
+                  <div className="circle-logo-solid"><i class="fa-solid fa-circle"></i></div>
+               </div>
+
+               <div className="circle-logo">
+                  {/* <div className="circle-logo-regular"><i class="fa-regular fa-circle"></i></div> */}
+                  <div className="circle-logo-regular"><i class="fa-solid fa-circle-dot"></i></div>
+                  <div className="circle-logo-solid"><i class="fa-solid fa-circle"></i></div>
+               </div>
+            </div>
+         </div>
+         
       </div>
    )
 }

@@ -18,12 +18,13 @@
 }
 
 .men-shirts {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    width: 95.3%;
    margin: auto;
    display: flex;
    justify-content: space-between;
    margin-top: 24px;
+   margin-bottom: 250px;
 }
 
 .men-shirts-layout {
@@ -35,14 +36,14 @@
    gap: 4px;
 }
 
-.men-shirts-layout > div {
+.men-shirts-layout>div {
    /* border: 1px solid green; */
    width: 49.7%;
    margin-top: 4px;
    cursor: pointer;
 }
 
-.men-shirts-layout > div >img {
+.men-shirts-layout>div>img {
    width: 100%;
    height: 100%;
    object-fit: cover;
@@ -50,48 +51,50 @@
 }
 
 .men-shirts-details {
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    width: 31.4%;
    margin-top: 36px;
 }
 
-.men-shirts-position{
-   border: 1px solid red;
+.men-shirts-position {
+   /* border: 1px solid red; */
    position: sticky;
-   top: -60%;
+   top: 0%;
    bottom: 0;
 }
 
-.men-shirts-name{
+.men-shirts-name {
    display: flex;
    justify-content: space-between;
    font-weight: 500;
 }
 
-.men-shirts-heart{
+.men-shirts-heart {
    margin-right: 10px;
 }
-.men-shirts-heart div:nth-child(1){
+
+.men-shirts-heart div:nth-child(1) {
    cursor: pointer;
 }
-.men-shirts-heart div:nth-child(2){
+
+.men-shirts-heart div:nth-child(2) {
    margin-top: -21px;
    opacity: 0;
    cursor: pointer;
 }
 
-.men-shirts-heart div:nth-child(2):hover{
+.men-shirts-heart div:nth-child(2):hover {
    opacity: 1;
    color: rgb(229, 0, 16);
 }
 
-.men-shirts-price{
+.men-shirts-price {
    font-size: 20px;
    font-weight: 500;
    margin-top: 8px;
 }
 
-.men-shirts-cat p:nth-child(1){
+.men-shirts-cat p:nth-child(1) {
    color: rgb(34, 34, 34);
    font-size: 13px;
    font-weight: 500;
@@ -99,21 +102,60 @@
    margin-top: 28px;
 }
 
-.men-shirts-cat-img{
+.men-shirts-cat-img {
    display: flex;
    margin-top: 18px;
 }
 
-.men-shirts-cat-img img{
+.men-shirts-cat-img img {
    border: 1px solid white;
    margin-right: 1.5px;
 }
 
-.men-shirts-cat-img div:nth-child(1) img{
+.men-shirts-cat-img div:nth-child(1) img {
    border: 1px solid black;
 }
 
-.men-shirts-add-button button{
+.size-of-shirts {
+   /* border: 1px solid red; */
+   margin-top: 28px;
+}
+
+.size-of-shirts>p {
+   color: rgb(34, 34, 34);
+   font-size: 13px;
+   font-weight: 500;
+}
+
+.sos-box-layout {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 8px;
+}
+
+.sos-box-layout>div:nth-child(1) {
+   margin-left: 0px;
+}
+
+.sos-box-layout>div:nth-child(5) {
+   margin-right: 0px;
+}
+
+.sos-box-layout>div:nth-child(6) {
+   margin-left: 0px;
+}
+
+.sos-box {
+   border: 1px solid rgb(208, 208, 208);
+   width: 74.5px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 2.4px 14px 2.4px;
+}
+
+.men-shirts-add-button button {
    border: 1px solid rgb(34, 34, 34);
    background-color: rgb(34, 34, 34);
    color: white;
@@ -124,19 +166,20 @@
    margin-top: 30px;
 }
 
-.men-shirts-add-button button i{
+.men-shirts-add-button button i {
    margin-right: 8px;
 }
 
-.men-shirts-f-s{
+.men-shirts-f-s {
    margin-top: 30px;
 }
 
-.men-shirts-find-in-store,.men-shirts-delivery-duration{
+.men-shirts-find-in-store,
+.men-shirts-delivery-duration {
    display: flex;
 }
 
-.men-shirts-delivery-duration{
+.men-shirts-delivery-duration {
    margin-top: 5px;
 }
 
@@ -154,47 +197,48 @@
    padding-bottom: 2px;
 }
 
-.men-shirts-f-s > div > p{
+.men-shirts-f-s>div>p {
    font-size: 13px;
    margin-left: 6px;
 }
 
-.men-shirts-dap{
+.men-shirts-dap {
    text-align: center;
    font-weight: 500;
    margin-top: 14px;
 }
 
-.men-shirts-reviews{
+.men-shirts-reviews {
    display: flex;
    margin-top: 60px;
 }
 
-.men-shirts-review-stars{
+.men-shirts-review-stars {
    display: flex;
    margin-right: 6px;
 }
 
-.men-shirts-size{
+.men-shirts-size {
    margin-top: 20px;
 }
 
-.men-shirts-size > p:nth-child(1){
+.men-shirts-size>p:nth-child(1) {
    font-size: 13px;
 }
 
-.men-shirts-ajustment{
+.men-shirts-ajustment {
    border-top: 1px solid black;
    display: flex;
    justify-content: center;
    padding-left: 40px;
    margin: 8px 0px;
 }
-.men-shirts-ajustment i{
+
+.men-shirts-ajustment i {
    margin-top: -1px;
 }
 
-.men-shirts-size-range{
+.men-shirts-size-range {
    font-size: 13px;
    color: rgb(112, 112, 112);
    display: flex;
@@ -202,11 +246,11 @@
    margin-top: 15px;
 }
 
-.men-shirts-summary{
+.men-shirts-summary {
    margin-top: 74px;
 }
 
-.men-shirts-description{
+.men-shirts-description {
    border-top: 1px solid rgba(0, 0, 0, 0.2);
    font-weight: 600;
    display: flex;
@@ -215,6 +259,170 @@
    cursor: pointer;
 }
 
-.men-shirts-description:hover{
+.men-shirts-description:hover {
+   color: rgb(229, 0, 16);
+}
+
+
+
+
+
+
+
+
+.style-with {
+   /* border: 1px solid blue; */
+   width: 87.5%;
+   margin: auto;
+   margin-bottom: 25px;
+}
+
+.style-with>P {
+   font-size: 20px;
+   font-weight: 500;
+   letter-spacing: 0.8px;
+}
+
+.style-layout {
+   /* border: 1px solid blue; */
+   display: flex;
+   justify-content: space-between;
+   margin-top: 8px;
+}
+
+.style-poster {
+   /* border: 1px solid black; */
+   width: 278px;
+   height: 461px;
+}
+
+.style-pic-1 {
+   /* border: 1px solid red; */
+   width: 100%;
+   height: 417px;
+   background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/e5/1a/e51aa0cbeaf94d704555ce9980d9c9c7c7b3c36c.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-bottom: 6px;
+   cursor: pointer;
+}
+
+.style-pic-2 {
+   /* border: 1px solid red; */
+   width: 100%;
+   height: 417px;
+   background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/7e/f8/7ef8902eec61500389217565121c0b272bfe98e0.jpg],origin[dam],category[men_accessories_hatscaps_caps],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-bottom: 6px;
+   cursor: pointer;
+}
+
+.style-pic-3 {
+   /* border: 1px solid red; */
+   width: 100%;
+   height: 417px;
+   background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/57/22/5722dfac4c1bf04ae745eeb6db3f67895082bd99.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-bottom: 6px;
+   cursor: pointer;
+}
+
+.style-pic-4 {
+   /* border: 1px solid red; */
+   width: 100%;
+   height: 417px;
+   background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/4e/59/4e59a0b115fd3abb80587f876508fccd91ce6af4.jpg],origin[dam],category[men_hoodiessweatshirts_sweatshirts],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/style]);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   margin-bottom: 6px;
+   cursor: pointer;
+}
+
+.heart-container {
+   /* border: 1px solid black; */
+   margin: 0px 16px 18px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.heart-logo-regular-0 {
+   color: white;
+   font-size: 14px;
+}
+
+.heart-logo-regular {
+   color: black;
+   margin-top: -21px;
+}
+
+.heart-logo-solid {
+   opacity: 0;
+   color: rgb(229, 0, 16);
+   margin-top: -21px;
+   cursor: pointer;
+}
+
+.heart-logo-solid:hover {
+   opacity: 1;
+}
+
+.style-text,
+.style-price {
+   color: rgb(71, 71, 71);
+   font-size: 13px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.style-text:hover {
+   text-decoration-line: underline;
+}
+
+
+
+.slick-dot {
+   display: flex;
+   justify-content: center;
+   margin: 12px 0px;
+}
+
+.circle-logo {
+   margin: 0px 5px;
+}
+
+.circle-logo-solid {
+   font-size: 6px;
+   margin-top: -8px;
+   display: none;
+   cursor: pointer;
+}
+
+.slick-dot>div:nth-child(1) .circle-logo-solid {
+   display: block;
+   color: rgb(229, 0, 16);
+}
+
+.circle-logo-regular {
+   font-size: 6px;
+   cursor: pointer;
+}
+
+.circle-logo-regular:hover {
    color: rgb(229, 0, 16);
 }
