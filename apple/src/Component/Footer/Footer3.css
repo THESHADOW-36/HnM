@@ -1,0 +1,45 @@
+.footer3 {
+   background-color: rgb(245, 245, 247);
+   padding-top: 4px;
+   padding-bottom: 28px;
+}
+
+.footer3-content-text-2 {
+   color: rgb(110, 110, 115);
+   font-size: 13px;
+   margin-top: 36px;
+}
+.footer3-pp-tc {
+   display: flex;
+   justify-content: space-between;
+   letter-spacing: 0.2px;
+}
+
+.footer3-more-ways-to-shop {
+   letter-spacing: 0.2px;
+}
+
+.footer3-more-ways-to-shop span {
+   color: rgb(0, 102, 204);
+   text-decoration-line: underline;
+}
+
+.footer3-copyright-pp {
+   display: flex;
+}
+
+.footer3-pp-t-sp-l-sm {
+   display: flex;
+   align-items: center;
+   margin-left: 35px;
+}
+
+.footer3-pp-t-sp-l-sm {
+   color: rgb(66, 66, 69);
+}
+
+.footer3-vertical-line {
+   border-left: 1px solid rgb(113, 113, 113);
+   height: 16px;
+   margin: 0px 10px;
+}
