@@ -1,8 +1,8 @@
 import React from "react";
-import "./Navbar.css"
+import "./Navbar3.css"
 import { useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar3 = () => {
    const router = useNavigate()
 
    function storeSite() {
@@ -19,13 +19,13 @@ const Navbar = () => {
 
    return (
       <>
-         <div className="navbar">
-            <div className="navbar-content">
+         <div className="navbar3">
+            <div className="navbar3-content">
                <div className="apple-logo" onClick={homepageSite}>
                   <i class="fa-brands fa-apple fa-lg"></i>
                </div>
 
-               <div className="navbar-text">
+               <div className="navbar3-text">
                   <p onClick={storeSite}>Store</p>
                   <p>Mac</p>
                   <p>iPad</p>
@@ -39,15 +39,14 @@ const Navbar = () => {
                   <p>Support</p>
                </div>
 
-               <div className="navbar-search-bag">
-                  <div className="navbar-search-logo"><i class="fa-solid fa-magnifying-glass"></i></div>
-                  <div className="navbar-bag-logo" onClick={signInSite}><i class="fa-solid fa-bag-shopping"></i></div>
+               <div className="navbar3-search-bag">
+                  <div className="navbar3-search-logo"><i class="fa-solid fa-magnifying-glass"></i></div>
+                  <div className="navbar3-bag-logo" onClick={signInSite}><i class="fa-solid fa-bag-shopping"></i></div>
                </div>
             </div>
          </div>
-         <div className="navbar-space"></div>
       </>
    )
 }
 
-export default Navbar
+export default Navbar3

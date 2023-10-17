@@ -1,0 +1,214 @@
+.sign-up {
+   border: 1px solid black;
+   width: 100%;
+}
+
+.su-gap {
+   height: 16px;
+}
+
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+}
+
+.su-apple-id-bg {
+   border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.su-apple-id {
+   /* border: 1px solid red; */
+   width: 72.5%;
+   height: 52px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.su-apple-id>p {
+   color: rgb(17, 17, 17);
+   font-size: 24px;
+}
+
+.su-scf {
+   display: flex;
+}
+
+.su-scf>p {
+   color: rgb(51, 51, 51);
+   font-size: 13px;
+   margin-left: 24px;
+   letter-spacing: 0.2px;
+   cursor: pointer;
+}
+
+.su-scf>p:hover {
+   color: rgb(0, 112, 201);
+}
+
+.su-create-ur-id-layout {
+   border: 1px solid black;
+   width: 34%;
+   margin: auto;
+}
+
+.su-create-ur-id-text {
+   font-size: 34px;
+   font-weight: 700;
+   text-align: center;
+   letter-spacing: 2.5px;
+   margin-top: 30px;
+}
+
+.su-apple-id-text {
+   font-size: 17px;
+   text-align: center;
+   letter-spacing: 0.6px;
+   margin-top: 8px;
+}
+
+.su-username {
+   display: flex;
+   justify-content: space-between;
+}
+
+.su-first-name {
+   width: 213px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.su-last-name {
+   width: 228px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.su-first-name>input,
+.su-last-name>input {
+   border: 1px solid rgb(214, 214, 214);
+   border-radius: 4px;
+   /* outline-color: rgba(0, 134, 201, 0.5); */
+   width: 100%;
+   height: 100%;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 0px 16px;
+}
+
+
+.su-first-name>input:focus-visible,
+.su-last-name>input:focus-visible,
+.su-option-box>select:focus-visible,
+.su-input-box>input:focus-visible {
+   border: 1px solid rgba(0, 134, 201);
+   outline: 4px solid rgba(0, 134, 201, 0.3);
+}
+
+.su-country-dob {
+   color: rgb(102, 102, 102);
+   font-weight: 500;
+   margin-top: 34px;
+   margin-bottom: 2px;
+}
+
+.su-option-box>select,
+.su-input-box>input {
+   border: 1px solid rgb(214, 214, 214);
+   border-radius: 4px;
+   color: rgb(51, 51, 51);
+   width: 100%;
+   height: 54px;
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   padding: 0px 16px;
+}
+
+.su-input-box {
+   /* border: 1px solid red; */
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.su-vertical-line-layout {
+   /* border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.su-vertical-line {
+   border-top: 1px solid rgb(205, 205, 205);
+   width: 80.4%;
+   margin: 30px 0px 15px 0px;
+}
+
+.su-new-apple-id {
+   color: rgb(102, 102, 102);
+   margin-top: 4px;
+}
+
+.messaging-data-rates {
+   color: rgb(102, 102, 102);
+   width: 92%;
+   margin-top: 14px;
+}
+
+.su-messaging-verify {
+   font-size: 17px;
+   display: flex;
+   margin: 30px 0px;
+}
+
+.su-radio {
+   display: flex;
+}
+
+.su-radio>input {
+   margin: 0px 18px 0px 16px;
+}
+
+.su-radio>p {
+   margin: 0px 14px 0px 0px;
+}
+
+.su-announcements,
+.su-apps {
+   display: flex;
+   align-items: flex-start;
+}
+
+.su-announcements>input,
+.su-apps>input {
+   margin-top: 2px;
+}
+
+.su-announcements-text,
+.su-apps-text {
+   margin-left: 8px;
+}
+.su-announcements-text>p:nth-child(2),
+.su-apps-text>p:nth-child(2) {
+   color: rgb(102, 102, 102);
+   font-size: 13px;
+   width: 97%;
+}
+
+
+.su-footer {
+   height: 200px;
+}

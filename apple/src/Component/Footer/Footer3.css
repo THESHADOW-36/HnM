@@ -5,10 +5,28 @@
 }
 
 .footer3-content-text-2 {
+   width: 72.5%;
+   margin: auto;
    color: rgb(110, 110, 115);
    font-size: 13px;
-   margin-top: 36px;
 }
+
+.footer3-security-policy {
+   font-size: 13px;
+   letter-spacing: 0.2px;
+   padding: 14px 0px 20px 0px;
+}
+
+.footer3-security-policy>span {
+   color: rgb(66, 66, 69);
+   text-decoration-line: underline;
+}
+
+.footer3-border-line-2 {
+   border-top: 1px solid rgb(169, 169, 169);
+}
+
+
 .footer3-pp-tc {
    display: flex;
    justify-content: space-between;
@@ -16,7 +34,7 @@
 }
 
 .footer3-more-ways-to-shop {
-   letter-spacing: 0.2px;
+   letter-spacing: 0.3px;
 }
 
 .footer3-more-ways-to-shop span {
@@ -26,6 +44,7 @@
 
 .footer3-copyright-pp {
    display: flex;
+   margin-top: 6px;
 }
 
 .footer3-pp-t-sp-l-sm {

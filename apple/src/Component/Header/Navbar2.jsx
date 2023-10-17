@@ -30,6 +30,7 @@ const Navbar2 = () => {
                   <p>iPad</p>
                   <p>iPhone</p>
                   <p>Watch</p>
+                  <p>Vision</p>
                   <p>AirPods</p>
                   <p>TV & Home</p>
                   <p>Entertainment</p>

@@ -2,8 +2,15 @@ import React from "react";
 import "./SignIn.css"
 import Navbar2 from "../Header/Navbar2";
 import Footer3 from "../Footer/Footer3";
+import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
+   const router= useNavigate()
+
+   function SignUpSite(){
+      router("/sign-up")
+   }
+
    return (
       <>
          <Navbar2 />
@@ -19,7 +26,7 @@ const SignIn = () => {
 
                   <div className="password"><input type="password" placeholder="Password" /></div>
                   <div className="remember-forgot">
-                     <div className="d">
+                     <div className="remember-me">
                         <input type="checkbox" />
                         <p>Remember me</p>
                      </div>
@@ -30,8 +37,13 @@ const SignIn = () => {
                   </div>
 
                   <button className="sign-in-button">Sign In</button>
+
+                  <p className="sign-up-link">Don’t have an Apple ID? <span onClick={SignUpSite}>Create yours now.</span></p>
                </div>
             </div>
+
+            <div className="si-line"></div>
+            <p className="need-some-help">Need some help? <span>Chat now</span> or call 1‑800‑MY‑APPLE.</p>
          </div>
 
          <Footer3 />

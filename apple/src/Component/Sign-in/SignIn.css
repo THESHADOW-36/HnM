@@ -3,7 +3,7 @@
 }
 
 .check-out {
-   border: 1px solid red;
+   /* border: 1px solid red; */
    width: 72.5%;
    margin: auto;
    font-size: 40px;
@@ -13,9 +13,8 @@
 }
 
 .sign-in-content {
-   border: 1px solid black;
+   /* border: 1px solid black; */
    width: 72.5%;
-   height: 1000px;
    margin: auto;
 }
 
@@ -68,20 +67,22 @@
    color: rgb(73, 73, 73);
    display: flex;
 }
-.remember-me > input{
+
+.remember-me>input {
    width: 16px;
    cursor: pointer;
 }
+
 .remember-me>p {
    margin-left: 6px;
 }
 
-.forgot-password{
+.forgot-password {
    color: rgb(0, 102, 204);
    cursor: pointer;
 }
 
-.forgot-password:hover{
+.forgot-password:hover {
    text-decoration-line: underline;
 }
 
@@ -97,6 +98,36 @@
    cursor: pointer;
 }
 
-.sign-in-button:hover{
+.sign-in-button:hover {
    color: rgb(45, 45, 45);
+}
+
+.sign-up-link {
+   color: sign-up-link;
+   margin-top: 30px;
+   margin-bottom: 130px;
+}
+
+.sign-up-link>span,
+.need-some-help>span {
+   color: rgb(0, 102, 204);
+   cursor: pointer;
+}
+
+.sign-up-link>span:hover,
+.need-some-help>span:hover {
+   text-decoration-line: underline
+}
+
+.si-line {
+   border-top: 1px solid rgb(170, 170, 170);
+}
+
+.need-some-help {
+   width: 72.5%;
+   color: rgb(29, 29, 31);
+   font-size: 17px;
+   letter-spacing: 0.6px;
+   margin: auto;
+   padding: 22px 0px;
 }
