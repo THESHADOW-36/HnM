@@ -2,8 +2,14 @@ import React from "react";
 import "./Homepage.css"
 import Navbar from "./Header/Navbar";
 import Footer from "./Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
+   const router = useNavigate()
+
+   function iPhone15ProSite(){
+      router("/iPhone15pro")
+   }
 
    return (
       <>
@@ -19,7 +25,7 @@ const Homepage = () => {
                </div>
             </div>
 
-            <div className="iPhone-15-pro">
+            <div className="iPhone-15-pro" onClick={iPhone15ProSite}>
                <div className="text-box-1">
                   <p>iPhone 15 Pro</p>
                   <p>Titanium. So strong. So light. So Pro.</p>
