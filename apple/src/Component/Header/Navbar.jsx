@@ -41,7 +41,14 @@ const Navbar = () => {
 
                <div className="navbar-search-bag">
                   <div className="navbar-search-logo"><i class="fa-solid fa-magnifying-glass"></i></div>
-                  <div className="navbar-bag-logo" onClick={signInSite}><i class="fa-solid fa-bag-shopping"></i></div>
+                  <div className="navbar-bag-logo"><i class="fa-solid fa-bag-shopping"></i>
+                     <div className="navbar-bag">
+                        <p>Orders</p>
+                        <p>Your Saves</p>
+                        <p>Account</p>
+                        <p onClick={signInSite}>Sign In</p>
+                     </div>   
+                  </div>
                </div>
             </div>
          </div>

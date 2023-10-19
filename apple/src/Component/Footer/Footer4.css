@@ -43,15 +43,21 @@
 .footer4-pp-t-sp-l-sm {
    display: flex;
    align-items: center;
+   color: rgb(66, 66, 69);
    margin-left: 35px;
 }
 
-.footer4-pp-t-sp-l-sm {
-   color: rgb(66, 66, 69);
-}
 
 .footer4-vertical-line {
    border-left: 1px solid rgb(113, 113, 113);
    height: 16px;
    margin: 0px 10px;
+}
+
+
+.footer4-pp-t-sp-l-sm > p{
+   cursor: pointer;
+}
+.footer4-pp-t-sp-l-sm > p:hover{
+   text-decoration-line: underline;
 }

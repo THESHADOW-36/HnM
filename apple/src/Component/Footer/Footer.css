@@ -59,6 +59,11 @@
  .footer-content>p {
     font-size: 13px;
     margin-top: 10px;
+    cursor: pointer;
+ }
+
+ .footer-content>p:hover {
+    text-decoration-line: underline;
  }
 
  .footer-content-text-2 {
@@ -90,9 +95,6 @@
     display: flex;
     align-items: center;
     margin-left: 35px;
- }
-
- .pp-t-sp-l-sm {
     color: rgb(66, 66, 69);
  }
 
@@ -100,4 +102,13 @@
     border-left: 1px solid rgb(113, 113, 113);
     height: 16px;
     margin: 0px 10px;
+ }
+
+
+ .pp-t-sp-l-sm>p {
+    cursor: pointer;
+ }
+
+ .pp-t-sp-l-sm>p:hover {
+    text-decoration-line: underline;
  }

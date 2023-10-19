@@ -22,6 +22,7 @@
    color: rgba(255, 255, 255, 0.8);
    cursor: pointer;
    transition: 0.6s;
+   z-index: 10;
 }
 
 .apple-logo:hover {
@@ -40,6 +41,7 @@
 .navbar-text>p {
    cursor: pointer;
    transition: 0.6s;
+   z-index: 10;
 }
 
 .navbar-text>p:hover {
@@ -51,9 +53,11 @@
 }
 
 .navbar-search-logo {
+   position: relative;
    margin: 0px 40px 0px 0px;
    cursor: pointer;
    transition: 0.6s;
+   z-index: 10;
 }
 
 .navbar-bag-logo {
@@ -70,4 +74,24 @@
    background-color: rgb(29, 29, 31);
    width: 100%;
    height: 44px;
+}
+
+.navbar-bag{
+   background-color: gray;
+   position: absolute;
+   top: 0px;
+   left: 0;
+   display: none;
+   width: 100vw;
+   height: 200px;
+   padding-top: 44px;
+   transition: 1s;
+   z-index: -1;
+}
+
+.navbar-bag-logo:hover .navbar-bag ,
+.navbar-bag-logo:hover .navbar{
+   background-color: rgba(22, 22, 23);
+   display: block;
+   transition: 1s;
 }
