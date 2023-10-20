@@ -1,10 +1,10 @@
-.footer {
+.footer5 {
    background-color: rgb(29, 29, 31);
    padding-top: 4px;
    padding-bottom: 28px;
 }
 
-.footer-content-text {
+.footer5-content-text {
    font-size: 13px;
    color: rgb(134, 134, 139);
    margin-top: 14px;
@@ -12,16 +12,16 @@
    line-height: 16px;
 }
 
-.footer-content-text>p>span {
+.footer5-content-text>p>span {
    color: rgb(66, 66, 69);
    text-decoration-line: underline;
 }
 
-.footer-content-text p:nth-child(2) {
+.footer5-content-text p:nth-child(2) {
    margin-top: 8px;
 }
 
-.footer-box {
+.footer5-box {
    /* border: 1px solid blue; */
    width: 72.4%;
    margin: auto;
@@ -61,7 +61,7 @@
    text-decoration-line: underline;
 }
 
-.footer-content-layout {
+.footer5-content-layout {
    /* border: 1px solid blue; */
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -69,43 +69,43 @@
    letter-spacing: 0.2px;
 }
 
-.footer-content>h3 {
+.footer5-content>h3 {
    color: rgb(245, 245, 247);
    font-size: 13px;
    font-weight: 600;
 }
 
-.footer-content>h4 {
+.footer5-content>h4 {
    color: rgb(245, 245, 247);
    font-size: 13px;
    font-weight: 600;
    margin-top: 26px;
 }
 
-.footer-content>p {
+.footer5-content>p {
    color: rgb(210, 210, 215);
    font-size: 13px;
    margin-top: 10px;
    cursor: pointer;
 }
 
-.footer-content>p:hover{
+.footer5-content>p:hover{
    text-decoration-line: underline;
 }
 
-.footer-content-text-2 {
+.footer5-content-text-2 {
    color: rgb(134, 134, 139);
    font-size: 13px;
    margin-top: 36px;
 }
 
-.pp-tc {
+.footer5-pp-tc {
    display: flex;
    justify-content: space-between;
    letter-spacing: 0.2px;
 }
 
-.pp-tc>p {
+.footer5-pp-tc>p {
    color: rgb(210, 210, 215);
 }
 
@@ -122,7 +122,7 @@
    display: flex;
 }
 
-.pp-t-sp-l-sm {
+.footer5-pp-t-sp-l-sm {
    color: rgb(210, 210, 215);
    display: flex;
    align-items: center;
@@ -135,9 +135,9 @@
    margin: 0px 10px;
 }
 
-.pp-t-sp-l-sm > p{
+.footer5-pp-t-sp-l-sm > p{
    cursor: pointer;
 }
-.pp-t-sp-l-sm > p:hover{
+.footer5-pp-t-sp-l-sm > p:hover{
    text-decoration-line: underline;
 }

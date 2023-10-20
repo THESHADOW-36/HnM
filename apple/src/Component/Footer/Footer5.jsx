@@ -3,9 +3,9 @@ import "./Footer5.css"
 
 const Footer5 = () => {
    return (
-      <div className="footer">
-         <div className="footer-box">
-            <div className="footer-content-text">
+      <div className="footer5">
+         <div className="footer5-box">
+            <div className="footer5-content-text">
                <p>* Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax maybe assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</p>
                <br />
                <p>** Translate action is coming in an update later this year.</p>
@@ -73,8 +73,8 @@ const Footer5 = () => {
                <p>iPhone 15 Pro</p>
             </div>
 
-            <div className="footer-content-layout">
-               <div className="footer-content">
+            <div className="footer5-content-layout">
+               <div className="footer5-content">
                   <h3>Shop and Learn</h3>
                   <p>Store</p>
                   <p>Mac</p>
@@ -91,7 +91,7 @@ const Footer5 = () => {
                   <p>Wallet</p>
                </div>
 
-               <div className="footer-content">
+               <div className="footer5-content">
                   <h3>Account</h3>
                   <p>Manage Your Apple ID</p>
                   <p>Apple Store Account</p>
@@ -107,7 +107,7 @@ const Footer5 = () => {
                   <p>App Store</p>
                </div>
 
-               <div className="footer-content">
+               <div className="footer5-content">
                   <h3>Apple Store</h3>
                   <p>Find a Store</p>
                   <p>Genius Bar</p>
@@ -120,7 +120,7 @@ const Footer5 = () => {
                   <p>Shopping Help</p>
                </div>
 
-               <div className="footer-content">
+               <div className="footer5-content">
                   <h3>For Business</h3>
                   <p>Apple and Business</p>
                   <p>Shop for Business</p>
@@ -135,7 +135,7 @@ const Footer5 = () => {
                   <p>Health on Apple Watch</p>
                </div>
 
-               <div className="footer-content">
+               <div className="footer5-content">
                   <h3>Apple Values</h3>
                   <p>Accessibility</p>
                   <p>Education</p>
@@ -154,13 +154,13 @@ const Footer5 = () => {
                </div>
             </div>
 
-            <div className="footer-content-text-2">
+            <div className="footer5-content-text-2">
                <p className="more-ways-to-shop">More ways to shop: <span>Find an Apple Store</span> or <span>other retailer</span> near you. Or call 000800 040 1966.</p>
                <div className="border-line-2"></div>
-               <div className="pp-tc">
+               <div className="footer5-pp-tc">
                   <div className="copyright-pp">
                      <p>Copyright © 2023 Apple Inc. All rights reserved.</p>
-                     <div className="pp-t-sp-l-sm">
+                     <div className="footer5-pp-t-sp-l-sm">
                         <p>Privacy Policy</p>
                         <div className="vertical-line"></div>
                         <p>Terms of Use</p>

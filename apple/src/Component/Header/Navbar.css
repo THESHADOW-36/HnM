@@ -76,8 +76,8 @@
    height: 44px;
 }
 
-.navbar-bag{
-   background-color: gray;
+.navbar-bag-bg{
+   background-color: rgba(22, 22, 23);
    position: absolute;
    top: 0px;
    left: 0;
@@ -87,11 +87,76 @@
    padding-top: 44px;
    transition: 1s;
    z-index: -1;
+   padding: 82px 0px 50px 0px;
+   cursor:auto;
 }
 
-.navbar-bag-logo:hover .navbar-bag ,
-.navbar-bag-logo:hover .navbar{
+.navbar-bag-logo:hover .navbar-bag-bg {
    background-color: rgba(22, 22, 23);
    display: block;
    transition: 1s;
+}
+
+.navbar-bag{
+   /* border: 1px solid red; */
+   width: 72.5%;
+   margin: auto;
+}
+
+.navbar-bag-title{
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar-bag-title > p{
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+}
+
+.navbar-bag-title > button{
+   background-color: rgb(0, 113, 227);
+   border: none;
+   border-radius: 980px;
+   color: white;
+   font-size: 17px;
+   font-weight: 500;
+   padding: 8px 16px;
+   margin-right: 36px;
+   cursor: pointer;
+   transition: 0.2s;
+}
+.navbar-bag-title > button:hover{
+   background-color: rgb(18, 122, 226);
+}
+
+.navbar-bag-product{
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.6px;
+   margin-top: 10px;
+}
+
+.navbar-bag-profile {
+   margin-top: 30px;
+}
+
+.navbar-bag-profile > h4{
+   color: rgb(134, 134, 139);
+   font-size: 12px;
+   letter-spacing: 0.2px;
+}
+
+.navbar-bag-profile p{
+   color: rgb(232, 232, 237);
+   font-size: 12px;
+   font-weight: 500;
+   letter-spacing: 0.2px;
+   margin-top: 6px;
+   cursor: pointer;
+}
+
+.navbar-bag-profile-text{
+   display: flex;
+   align-items: center;
 }
