@@ -7,6 +7,7 @@ import SignIn from "./Component/Sign-in/SignIn";
 import SignUp from "./Component/Sign-up/SignUp";
 import IPhone15Pro from "./Component/IPhone15Pro/IPhone15Pro";
 import AppleBag from "./Component/AppleBag/AppleBag";
+import ShopiPhone from "./Component/ShopiPhone/ShopiPhone";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/sign-up" element={<SignUp />} />
         <Route exact path="/iPhone15pro" element={<IPhone15Pro />} />
         <Route exact path="/bag" element={<AppleBag />} />
+        <Route exact path="/shop-iphone" element={<ShopiPhone />} />
       </Routes>
     </div>
   );

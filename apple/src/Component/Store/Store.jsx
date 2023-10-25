@@ -2,8 +2,13 @@ import React from "react";
 import "./Store.css"
 import Navbar2 from "../Header/Navbar2";
 import Footer2 from "../Footer/Footer2";
+import { useNavigate } from "react-router-dom";
 
 const Store = () => {
+	const router = useNavigate()
+	function shopiPhoneSite() {
+		router("/shop-iphone")
+	}
 	return (
 		<>
 			<Navbar2 />
@@ -60,7 +65,7 @@ const Store = () => {
 							<p>Mac</p>
 						</div>
 
-						<div className="store-apple-products">
+						<div className="store-apple-products" onClick={shopiPhoneSite}>
 							<div className="store-apple-products-img"><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&hei=130&fmt=png-alpha&.v=1692971740071" alt="" /></div>
 							<p>iPhone</p>
 						</div>

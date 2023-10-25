@@ -79,7 +79,7 @@
 
 .shv-text {
 	/* border: 1px solid green; */
-	width: 155px;
+	width: 172px;
 }
 
 .shv-text p {
@@ -613,10 +613,6 @@
 
 .sa-content::-webkit-scrollbar {
 	display: none;
-}
-
-.sa-content>div {
-	transition: 0.4s;
 }
 
 .sa-content>div:hover {
