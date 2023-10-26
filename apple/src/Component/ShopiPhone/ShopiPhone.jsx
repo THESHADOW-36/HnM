@@ -1,51 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar2 from "../Header/Navbar2";
 import Footer2 from "../Footer/Footer2";
 import "./ShopiPhone.css"
+import IPhonePopUp from "../ShopiPhonePopUp/IPhonePopUp";
 
 const ShopiPhone = () => {
-  // const [productDetails, setProductDetails] = useState([
-  //   {
-  //     name: "iPhone 15 pro",
-  //     image: "iPhone 15 pro pic",
-  //     descrpition: "iPhone 15 pro max ultra camera zoom",
-  //     price: "169000$"
-  //   },
-  //   {
-  //     name: "iPhone 14 pro",
-  //     image: "iPhone 14 pro pic",
-  //     descrpition: "iPhone 14 pro max ultra camera zoom",
-  //     price: "169000$"
-  //   },
-  //   {
-  //     name: "iPhone 12 pro",
-  //     image: "iPhone 12 pro pic",
-  //     descrpition: "iPhone 12 pro max ultra camera zoom",
-  //     price: "169000$"
-  //   }
-  // ])
 
+  const [iPhone15proVisibility, setIPhone15proVisibility] = useState(false)
 
-  // return (
-  //   <>
-  //     <Navbar2 />
-  //     <div>
-  //       {productDetails.length && productDetails.map((phone) => (
-  //         <div>name:{phone.name}</div>
-  //       ))}
-  //     </div>
-  //     <Footer2 />
-  //   </>
-  // )
-
-
-
+  function displayiPhone15pro() {
+    setIPhone15proVisibility(iPhone15proVisibility => iPhone15proVisibility = true)
+  }
 
 
 
 
   return (
     <>
+      <IPhonePopUp display={iPhone15proVisibility} setDisplay={setIPhone15proVisibility} />
       <Navbar2 />
       <div className="shopiPhone">
         <div className="si-bcc">
@@ -89,13 +61,57 @@ const ShopiPhone = () => {
             <h4 className="si-am-title">All models. <span>Take your pick.</span></h4>
             <div className="si-am-content">
 
-              <div className="si-am-layout">
+              <div className="si-am-layout" onClick={displayiPhone15pro}>
                 <div className="si-am-product-details">
                   <p className="si-am-new-product">NEW</p>
                   <p className="si-am-product-name">iPhone 15 Pro & <br /> iPhone 15 Pro Max</p>
                 </div>
 
                 <div className="si-am-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290312" alt="" /></div>
+                <div className="si-am-product-content">
+                  <div className="si-am-color-palatte">
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646951" alt="" /></div>
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-bluetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646952" alt="" /></div>
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-whitetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895648938" alt="" /></div>
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-blacktitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646488" alt="" /></div>
+                  </div>
+
+                  <div className="si-am-buy-price">
+                    <p className="si-am-product-price">From ₹21483.00/mo. with instant savings<sup>§§</sup> and No Cost EMI<sup>§§</sup> or ₹134900.00‡</p>
+                    <button className="si-am-buy">Buy</button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="si-am-layout">
+                <div className="si-am-product-details">
+                  <p className="si-am-new-product">NEW</p>
+                  <p className="si-am-product-name">iPhone 15 & <br /> iPhone 15 Plus</p>
+                </div>
+
+                <div className="si-am-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15hero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290559" alt="" /></div>
+                <div className="si-am-product-content">
+                  <div className="si-am-color-palatte">
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646951" alt="" /></div>
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-bluetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646952" alt="" /></div>
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-whitetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895648938" alt="" /></div>
+                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-blacktitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646488" alt="" /></div>
+                  </div>
+
+                  <div className="si-am-buy-price">
+                    <p className="si-am-product-price">From ₹21483.00/mo. with instant savings<sup>§§</sup> and No Cost EMI<sup>§§</sup> or ₹134900.00‡</p>
+                    <button className="si-am-buy">Buy</button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="si-am-layout">
+                <div className="si-am-product-details">
+                  <p className="si-am-new-product">NEW</p>
+                  <p className="si-am-product-name">iPhone 14 & <br /> iPhone 14 Plus</p>
+                </div>
+
+                <div className="si-am-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290654" alt="" /></div>
                 <div className="si-am-product-content">
                   <div className="si-am-color-palatte">
                     <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646951" alt="" /></div>
@@ -133,49 +149,6 @@ const ShopiPhone = () => {
                 </div>
               </div>
 
-              <div className="si-am-layout">
-                <div className="si-am-product-details">
-                  <p className="si-am-new-product">NEW</p>
-                  <p className="si-am-product-name">iPhone 15 Pro & <br /> iPhone 15 Pro Max</p>
-                </div>
-
-                <div className="si-am-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290312" alt="" /></div>
-                <div className="si-am-product-content">
-                  <div className="si-am-color-palatte">
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646951" alt="" /></div>
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-bluetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646952" alt="" /></div>
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-whitetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895648938" alt="" /></div>
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-blacktitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646488" alt="" /></div>
-                  </div>
-
-                  <div className="si-am-buy-price">
-                    <p className="si-am-product-price">From ₹21483.00/mo. with instant savings<sup>§§</sup> and No Cost EMI<sup>§§</sup> or ₹134900.00‡</p>
-                    <button className="si-am-buy">Buy</button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="si-am-layout">
-                <div className="si-am-product-details">
-                  <p className="si-am-new-product">NEW</p>
-                  <p className="si-am-product-name">iPhone 15 Pro & <br /> iPhone 15 Pro Max</p>
-                </div>
-
-                <div className="si-am-image">	<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1693086290312" alt="" /></div>
-                <div className="si-am-product-content">
-                  <div className="si-am-color-palatte">
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646951" alt="" /></div>
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-bluetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646952" alt="" /></div>
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-whitetitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895648938" alt="" /></div>
-                    <div><img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-blacktitanium-select_SW_COLOR?wid=16&hei=16&fmt=png-alpha&.v=1692895646488" alt="" /></div>
-                  </div>
-
-                  <div className="si-am-buy-price">
-                    <p className="si-am-product-price">From ₹21483.00/mo. with instant savings<sup>§§</sup> and No Cost EMI<sup>§§</sup> or ₹134900.00‡</p>
-                    <button className="si-am-buy">Buy</button>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 

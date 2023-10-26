@@ -41,7 +41,7 @@ const BecomeAMember = ({ display, setDisplay, bamDisplay, setBamDisplay }) => {
                            <label>Date of birth<span className="star">*</span></label>
                            <br />
                            <div className="bam-input">
-                              <input type="number"  />
+                              <input type="number" />
                               <input type="number" />
                               <input type="number" />
                            </div>

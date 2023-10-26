@@ -8,6 +8,7 @@ import SignUp from "./Component/Sign-up/SignUp";
 import IPhone15Pro from "./Component/IPhone15Pro/IPhone15Pro";
 import AppleBag from "./Component/AppleBag/AppleBag";
 import ShopiPhone from "./Component/ShopiPhone/ShopiPhone";
+import IPhonePopUp from "./Component/ShopiPhonePopUp/IPhonePopUp";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/iPhone15pro" element={<IPhone15Pro />} />
         <Route exact path="/bag" element={<AppleBag />} />
         <Route exact path="/shop-iphone" element={<ShopiPhone />} />
+        <Route exact path="/shop-iphone15pro" element={<IPhonePopUp />} />
       </Routes>
     </div>
   );
