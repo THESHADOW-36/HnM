@@ -1,5 +1,13 @@
 import React from "react";
 import "./IPhonePopUp.css"
+import inch from "./../../Images/6-inch.png"
+import actionButton from "./../../Images/Action-button.png"
+import mainCamera from "./../../Images/Main-camera.png"
+import A17 from "./../../Images/A17.png"
+import usbC from "./../../Images/USB-c.png"
+import wayToPay from "./../../Images/Way-to-pay.png"
+import tradeIn from "./../../Images/Trade-in.png"
+import freeDelivery from "./../../Images/Free-delivery.png"
 
 const IPhonePopUp = ({ display, setDisplay }) => {
 
@@ -61,23 +69,23 @@ const IPhonePopUp = ({ display, setDisplay }) => {
 
                         <div className="ipctr-specs">
                           <div className="ipctr-specs-details">
-                            <div className="ipctr-sd-img"></div>
+                            <div className="ipctr-sd-img"><img src={inch} alt="" /></div>
                             <p className="ipctr-sd-text">15.5 cm (6.1-inch) Super Retina XDR display¹ featuring ProMotion, Always-On and <br /> Dynamic Island</p>
                           </div>
                           <div className="ipctr-specs-details">
-                            <div className="ipctr-sd-img"></div>
+                            <div className="ipctr-sd-img"><img src={actionButton} alt="" /></div>
                             <p className="ipctr-sd-text">Strong and light titanium design with Action button — a fast track to your favourite feature</p>
                           </div>
                           <div className="ipctr-specs-details">
-                            <div className="ipctr-sd-img"></div>
+                            <div className="ipctr-sd-img"><img src={mainCamera} alt="" /></div>
                             <p className="ipctr-sd-text">48MP Main camera for super-high-resolution photos and 3x Telephoto camera</p>
                           </div>
                           <div className="ipctr-specs-details">
-                            <div className="ipctr-sd-img"></div>
+                            <div className="ipctr-sd-img"><img src={A17} alt="" /></div>
                             <p className="ipctr-sd-text">A17 Pro chip delivers a massive leap in graphics performance, transforming mobile gaming</p>
                           </div>
                           <div className="ipctr-specs-details">
-                            <div className="ipctr-sd-img"></div>
+                            <div className="ipctr-sd-img"><img src={usbC} alt="" /></div>
                             <p className="ipctr-sd-text">USB-C connector with USB 3 for up to 20x faster transfer speeds² and new pro workflows</p>
                           </div>
                         </div>
@@ -93,10 +101,26 @@ const IPhonePopUp = ({ display, setDisplay }) => {
                   </div>
                   <div className="ipc-bottom">
                     <div className="ipcb-lay">
-                      <div className="ipcb-logo"><img src="" alt="" /></div>
-                      <div className="ipcb-text">
-                        <p>Flexible ways to pay</p>
-                        <p>No Cost EMI§ and EMI◊◊ available.</p>
+                      <div className="ipcb-content">
+                        <div className="ipcb-logo"><img src={wayToPay} alt="" /></div>
+                        <div className="ipcb-text">
+                          <p>Flexible ways to pay</p>
+                          <p>No Cost EMI<sup>§</sup> and EMI<sup>◊◊</sup> available.</p>
+                        </div>
+                      </div>
+                      <div className="ipcb-content">
+                        <div className="ipcb-logo-2"><img src={tradeIn} alt="" /></div>
+                        <div className="ipcb-text">
+                          <p>Apple Trade In</p>
+                          <p>Trade in your eligible device for credit towards your next purchase.*</p>
+                        </div>
+                      </div>
+                      <div className="ipcb-content">
+                        <div className="ipcb-logo"><img src={freeDelivery} alt="" /></div>
+                        <div className="ipcb-text">
+                          <p>Free delivery and pickup.</p>
+                          <p>Get free delivery or pick up at your Apple Store</p>
+                        </div>
                       </div>
                     </div>
                   </div>

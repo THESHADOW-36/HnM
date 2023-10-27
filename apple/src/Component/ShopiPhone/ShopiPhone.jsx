@@ -5,15 +5,11 @@ import "./ShopiPhone.css"
 import IPhonePopUp from "../ShopiPhonePopUp/IPhonePopUp";
 
 const ShopiPhone = () => {
-
   const [iPhone15proVisibility, setIPhone15proVisibility] = useState(false)
 
   function displayiPhone15pro() {
     setIPhone15proVisibility(iPhone15proVisibility => iPhone15proVisibility = true)
   }
-
-
-
 
   return (
     <>
