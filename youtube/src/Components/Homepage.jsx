@@ -1,10 +1,15 @@
 import React from "react";
+import "./Homepage.css"
+import SearchBar from "./Header/SearchBar";
 
 const Homepage = () => {
-   return(
-      <div>
-         hello YT
-      </div>
+   return (
+      <>
+         <SearchBar />
+         <div>
+            hello YT
+         </div>
+      </>
    )
 }
 

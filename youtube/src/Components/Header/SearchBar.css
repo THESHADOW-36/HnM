@@ -1,0 +1,6 @@
+.search-bar{
+  border: 1px solid white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
