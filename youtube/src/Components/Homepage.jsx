@@ -27,7 +27,7 @@ import settingLogo from "./../Images/Settings.png"
 import reportHistoryLogo from "./../Images/ReportHistory.png"
 import helpLogo from "./../Images/Help.png"
 import sendFeedbackLogo from "./../Images/SendFeedback.png"
-
+// 
 const Homepage = () => {
    // eslint-disable-next-line
    const [vidContent, setVidContent] = useState([
@@ -283,10 +283,6 @@ const Homepage = () => {
       <>
          <SearchBar />
          <div className="homepage">
-            <div className="">
-
-            </div>
-
 
             <div className="menu-category">
                <div className="menu-category-layout">
@@ -448,27 +444,48 @@ const Homepage = () => {
             </div>
 
 
+            <div className="main-content">
 
-            <div className="body-content">
-               {vidContent.length && vidContent.map((content) => (
-                  <div className="video-content-layout">
+               <div className="tab-list-layout">
+                  <div className="tab-list">
+                     <p className="tab-name-0">All</p>
+                     <p className="tab-name">Gaming</p>
+                     <p className="tab-name">Mixes</p>
+                     <p className="tab-name">Music</p>
+                     <p className="tab-name">Live</p>
+                     <p className="tab-name">Valorant</p>
+                     <p className="tab-name">CSS</p>
+                     <p className="tab-name">Trailers</p>
+                     <p className="tab-name">Gadgets</p>
+                     <p className="tab-name">Recently uploaded</p>
+                     <p className="tab-name">Watched</p>
+                     <p className="tab-name">Video game </p>
+                  </div>
+                  <div className="tl-right-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+               </div>
 
-                     <div className="vc-img"><img src={content.img} alt="" /></div>
 
-                     <div className="vc-details-layout">
-                        <div className="vc-channel-logo"><img src={content.cLogo} alt="" /></div>
-                        <div className="vc-details">
-                           <div className="vc-title">{content.title}</div>
-                           <div className="vc-channel-name">{content.cName}</div>
-                           <div className="vc-channel-views">{content.cViews}</div>
-                        </div>
-                        <div className="vc-more-details-box">
-                           <div className="vc-more-details"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+               <div className="body-content">
+                  {vidContent.length && vidContent.map((content) => (
+                     <div className="video-content-layout">
+
+                        <div className="vc-img"><img src={content.img} alt="" /></div>
+
+                        <div className="vc-details-layout">
+                           <div className="vc-channel-logo"><img src={content.cLogo} alt="" /></div>
+                           <div className="vc-details">
+                              <div className="vc-title">{content.title}</div>
+                              <div className="vc-channel-name">{content.cName}</div>
+                              <div className="vc-channel-views">{content.cViews}</div>
+                           </div>
+                           <div className="vc-more-details-box">
+                              <div className="vc-more-details"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                           </div>
                         </div>
                      </div>
-                  </div>
-               ))
-               }
+                  ))
+                  }
+               </div>
             </div>
          </div>
       </>

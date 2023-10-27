@@ -40,7 +40,6 @@ const SearchBar = () => {
             <div className="sb-profile">
             <img src={profile} alt="" />
             </div>
-
           </div>
         </div>
       </div>

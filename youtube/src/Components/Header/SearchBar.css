@@ -1,5 +1,9 @@
 .search-bar-bg{
+  background-color: rgb(15, 15, 15);
+  position: sticky;
+  top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .search-bar{
@@ -72,7 +76,7 @@
   letter-spacing: -0.3px;
 }
 .search-bar-logo{
-  background-color: rgb(48, 48, 48);  
+  background-color: rgba(255, 255, 255, 0.08);  
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   width: 64px;
@@ -85,7 +89,7 @@
 
 
 .sb-voice-search{
-  background-color: rgb(48, 48, 48);
+  background-color: rgba(255, 255, 255, 0.08);
   border-radius: 50px;
   width: 40px;
   height: 40px;
@@ -96,6 +100,9 @@
   cursor: pointer;
 }
 
+.sb-voice-search:hover{
+  background-color:rgb(48, 48, 48);
+}
 
 
 .sb-create-notify-signin{
