@@ -81,6 +81,8 @@ const Homepage = () => {
          duration: "9:44"
       }
    ])
+
+   // eslint-disable-next-line
    const [shortsClip, setShortsClip] = useState([
       {
          img: "https://i.ytimg.com/vi/xj02uqpz-nE/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBhh918jlcgZWS75F11pJXgdRMSzQ",
