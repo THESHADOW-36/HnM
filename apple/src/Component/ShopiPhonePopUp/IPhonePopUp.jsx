@@ -20,7 +20,6 @@ const IPhonePopUp = ({ display, setDisplay }) => {
       <div>
         {display
           ?
-          <div className="iPhone-popup-body">
             <div className="iPhone-popup-bg" >
               <div className="iPhone-popup">
                 <div className="ip-closebutton">
@@ -153,7 +152,6 @@ const IPhonePopUp = ({ display, setDisplay }) => {
 
               </div>
             </div>
-          </div>
           :
           <div></div>
         }

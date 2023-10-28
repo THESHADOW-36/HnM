@@ -27,6 +27,8 @@ function Navbar() {
 	return (
 		<div className="nav-bg">
 			<SignIn display={signInVisibility} setDisplay={setSignInVisibility} bamDisplay={bamVisibility} setBamDisplay={setBamVisibility} />
+			
+			
 			<BecomeAMember display={signInVisibility} setDisplay={setSignInVisibility} bamDisplay={bamVisibility} setBamDisplay={setBamVisibility} />
 			<div className="nav-box">
 				<div className="nav-left-text">

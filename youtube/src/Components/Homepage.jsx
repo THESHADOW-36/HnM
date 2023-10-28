@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Homepage.css"
-import SearchBar from "./Header/Searchbar";
+import SearchBar from "./Header/SearchBar";
 import homeLogo from "./../Images/Home.png"
 import shortsLogo from "./../Images/Shorts.png"
 import subLogo from "./../Images/Subscriptions.png"

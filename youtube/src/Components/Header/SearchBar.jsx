@@ -1,5 +1,5 @@
 import React from "react";
-import "./Searchbar.css"
+import "./SearchBar.css"
 import youtubeLogo from "./../../Images/YoutubeLogoWhite.png"
 import create from "./../../Images/Create.png"
 import notification from "./../../Images/Notification.png"
