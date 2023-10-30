@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./SearchBar.css"
 import youtubeLogo from "./../../Images/YoutubeLogoWhite.png"
 import create from "./../../Images/Create.png"
@@ -6,6 +7,12 @@ import notification from "./../../Images/Notification.png"
 import profile from "./../../Images/Profile.png"
 
 const SearchBar = () => {
+  const router = useNavigate();
+
+  function signInSite() {
+    router("/sign-in")
+  }
+
   return (
     <>
       <div className="search-bar-bg">
@@ -21,7 +28,7 @@ const SearchBar = () => {
 
           <div className="search-bar-box">
             <div className="search-bar-layout">
-              <div className="search-bar-input"><input type="text" placeholder="Search"/></div>
+              <div className="search-bar-input"><input type="text" placeholder="Search" /></div>
               <div className="search-bar-logo"><i class="fa-solid fa-magnifying-glass fa-lg"></i></div>
             </div>
 
@@ -35,10 +42,10 @@ const SearchBar = () => {
               <img src={create} alt="" />
             </div>
             <div className="sb-notify">
-            <img src={notification} alt="" />
+              <img src={notification} alt="" />
             </div>
-            <div className="sb-profile">
-            <img src={profile} alt="" />
+            <div className="sb-profile" onClick={signInSite}>
+              <img src={profile} alt="" />
             </div>
           </div>
         </div>
