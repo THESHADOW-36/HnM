@@ -1,8 +1,15 @@
 import React from "react";
 import "./SignIn.css"
+import { useNavigate } from "react-router-dom";
 import googleLogo from "./../../Images/Google.png"
 
 const SignIn = () => {
+  const router = useNavigate()
+
+  function signUpSite() {
+    router("/sign-up")
+  }
+
   return (
     <div className="sign-in">
       <div className="sign-in-layout">
@@ -29,12 +36,12 @@ const SignIn = () => {
           <p className="si-learn-more">Learn more</p>
         </div>
         <div className="si-create-one-next">
-          <button className="si-creat-one-button">Create account</button>
+          <button className="si-creat-one-button" onClick={signUpSite}>Create account</button>
           <button className="si-next-button">Next</button>
         </div>
       </div>
 
-      
+
       <div className="si-country-terms">
         <div className="si-countries">
           <select>
