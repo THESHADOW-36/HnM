@@ -23,15 +23,15 @@ const SignUp = () => {
         <p className="su-input-titles">Enter your birthday and gender</p>
         <div className="su-dob-layout">
           <div className="su-dob-input">
-            <input type="text" required />
+            <input type="number" required />
             <label>Day</label>
           </div>
           <div className="su-dob-input">
-            <input type="text" required />
+            <input type="number" required />
             <label>Month</label>
           </div>
           <div className="su-dob-input">
-            <input type="text" required />
+            <input type="number" required />
             <label>Year</label>
           </div>
         </div>
@@ -64,7 +64,7 @@ const SignUp = () => {
 
         <div className="su-privacy-terms">
           <div className="su-privacy">
-            <div className="su-p-checkbox"><input type="checkbox" checked /></div>
+            <div className="su-p-checkbox"><input type="checkbox" defaultChecked /></div>
             <p>Privacy and Terms</p>
           </div>
           <div className="su-privacy-details">

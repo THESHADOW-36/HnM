@@ -291,9 +291,24 @@
   color: rgb(241, 241, 241);
 }
 
-.vc-channel-views {
+.vc-channel-view-posted {
+  display: flex;
+  align-items: center;
+}
+
+.vc-channel-views,
+.vc-channel-posted {
   color: rgb(170, 170, 170);
   font-size: 14px;
+}
+
+.vc-cirle-gap {
+  font-size: 2.5px;
+  margin: 0px 5px 0px 5px;
+}
+
+.vc-cirle-gap i {
+  color: rgb(170, 170, 170);
 }
 
 .vc-more-details {
@@ -354,10 +369,10 @@
   height: 100%;
 }
 
-.shorts-header-text{
+.shorts-header-text {
   color: rgb(241, 241, 241);
   font-size: 20px;
-  font-weight: 700  ;
+  font-weight: 700;
 }
 
 .shorts-close-button {
