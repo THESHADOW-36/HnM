@@ -240,8 +240,8 @@ export const YtVerifiedTick = (props) => (
 
 export const YtSort = (props) => (
     <svg
-        width="800px"
-        height="800px"
+        width="24px"
+        height="24px"
         viewBox="0 0 24 24"
         id="align-left-2"
         data-name="Flat Line"
@@ -254,10 +254,10 @@ export const YtSort = (props) => (
             d="M3,12H17M3,6H21M3,18H13"
             style={{
                 fill: "none",
-                stroke: "#000000",
+                stroke: "white",
                 strokeLinecap: "round",
                 strokeLinejoin: "round",
-                strokeWidth: 2,
+                strokeWidth: "2",
             }}
         />
     </svg>

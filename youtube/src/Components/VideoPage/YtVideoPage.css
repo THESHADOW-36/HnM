@@ -405,12 +405,133 @@
   color: rgb(170, 170, 170);
 }
 
-.mvc-comments-section{
-  border: 1px solid white;
+.mvc-comments-section {
+  /* border: 1px solid white; */
   margin-top: 28px;
 }
 
-.mvc-cs-count> p{
+.mvc-cs-count {
+  display: flex;
+}
+
+.mvc-cs-count>p {
   font-size: 20px;
   font-weight: 700;
+}
+
+.mvc-cs-sort {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  margin-top: -6px;
+}
+
+.mvc-cs-sort>p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 8px;
+}
+
+.mvc-cs-add-my-comments{
+  /* border: 1px solid yellow; */
+  display: flex;
+  margin-top: 28px;
+}
+.mvc-cs-add-my-comments-input{
+  width: 100%;
+}
+.mvc-cs-add-my-comments-input input{
+  background-color: rgb(15, 15, 15);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 14px;
+  width: 97.5%;
+  padding-bottom: 5px;
+}
+
+.mvc-cs-add-my-comments-input input:focus-visible{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.mvc-cs-add-comments {
+  /* border: 1px solid yellow; */
+  display: flex;
+  margin-top: 28px;
+}
+
+.mvc-cs-ac-logo {
+  margin-right: 14px;
+}
+
+.mvc-cs-ac-logo img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.mvc-cs-ac-name-posted {
+  display: flex;
+  padding-top: 2px;
+}
+
+.mvc-cs-ac-name {
+  color: rgb(241, 241, 241);
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.mvc-cs-ac-posted {
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+}
+
+.mvc-cs-ac-comments {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.mvc-cs-ac-like-dislike {
+  display: flex;
+  margin-top: 10px;
+}
+
+.mvc-cs-ac-like-logo {
+  margin-left: -4px;
+  margin-right: 4px;
+}
+
+.mvc-cs-ac-like {
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  margin-top: 4px;
+  margin-right: 12px;
+}
+
+.mvc-cs-ac-reply {
+  color: rgb(241, 241, 241);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+.mvc-cs-ac-replies {
+  color: rgb(62, 166, 255);
+  display: flex;
+  align-items: flex-end;
+  margin-top: 8px;
+}
+
+.mvc-cs-ac-sort-down>i {
+  color: rgb(62, 166, 255);
+  margin: 0px 14px 0px 8px;
+}
+
+.mvc-cs-ac-replies-text {
+  font-size: 14px;
+  font-weight: 500;
 }

@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./YtVideoPage.css"
 import SearchBar from "./../Header/SearchBar.jsx";
 // import { useParams } from "react-router-dom";
-import { YtDislikeButton, YtDownloadButton, YtLikeButton, YtMenuButton, YtShareButton, YtVerifiedTick,YtSort } from "../Logos/Logos.jsx";
+import { YtDislikeButton, YtDownloadButton, YtLikeButton, YtMenuButton, YtShareButton, YtVerifiedTick, YtSort } from "../Logos/Logos.jsx";
 
 const VideoPage = () => {
   // const { id } = useParams();
-  
+
   // eslint-disable-next-line
   const [mainVideoContent, setMainVideoContent] = useState([
     {
@@ -138,6 +138,112 @@ const VideoPage = () => {
       vidPosted: "2 weeks ago",
       vidDuration: "17:00"
     },
+    {
+      id: "019",
+      vidImg: "https://i.ytimg.com/vi/93iK4wNij8E/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDUEZzbqtk_APwNw8OLR4ifB43nwg",
+      vidTitle: "Vaaranam Aayiram - Mundhinam Video | Harris Jayaraj | Suriya",
+      vidcName: "SonyMusicSouthVEVO",
+      vidViews: "63M views",
+      vidPosted: "8 years ago",
+      vidDuration: "5:10"
+    },
+    {
+      id: "020",
+      vidImg: "https://i.ytimg.com/vi/udAlOSn4yFo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC4GrBISRKxDBjXdlDZk3QOhI-TZw",
+      vidTitle: "Dhruva Natchathiram - Official Trailer | Chiyaan Vikram, Harris Jayaraj, Gautham Vasudev Menon",
+      vidcName: "Sony Music South",
+      vidViews: "13M",
+      vidPosted: "11 days ago",
+      vidDuration: "2:36"
+    },
+    {
+      id: "012",
+      vidImg: "https://i.ytimg.com/vi/ATElufr0OiE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA4b9x1ZOFFQdRLOqh8X_5ba5BAWw",
+      vidTitle: "Mudhal Nee Mudivum Nee - Title Track Video | Darbuka Siva | Sid Sriram | Thamarai",
+      vidcName: "SonyMusicSouthVEVO",
+      vidViews: "121M views",
+      vidPosted: "1 year ago",
+      vidDuration: "5:36"
+    },
+    {
+      id: "008",
+      vidImg: "https://i.ytimg.com/vi/A9D8mWjhYqQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAWFumMgLuij76Y3ntnanx1jk3cEA",
+      vidTitle: "Social Media Paavangal | Parithabangal",
+      vidcName: "Parithabangal",
+      vidViews: "602K views",
+      vidPosted: "7 hours ago",
+      vidDuration: "13:42"
+    },
+    {
+      id: "013",
+      vidImg: "https://i.ytimg.com/vi/YFYiTS46x-8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDxoLSBKyUp__VQdOrZPUEveIV1vg",
+      vidTitle: "Vinnaithaandi Varuvaayaa - Hosanna Video | Rahman | STR, Trisha",
+      vidcName: "SonyMusicSouthVEVO",
+      vidViews: "56M views",
+      vidPosted: "7 years ago",
+      vidDuration: "5:37"
+    },
+    {
+      id: "015",
+      vidImg: "https://i.ytimg.com/vi/9VpeTiz81gc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBHnGqP14r3OYihLri0TzxM1MYMhQ",
+      vidTitle: "VIKRAM – Pathala Pathala Lyric | Kamal Haasan | Vijay Sethupathi | Lokesh Kanagaraj | Anirudh",
+      vidcName: "Sony Music South",
+      vidViews: "114M views",
+      vidPosted: "1 year ago",
+      vidDuration: "3:33"
+    }
+  ])
+
+  // eslint-disable-next-line
+  const [commentSection, setCommentSection] = useState([
+    {
+      commentlogo: "https://yt3.googleusercontent.com/ajwzTVDv1XJDJLoPszQTDD-WA0Kpu_nMtAqXU_3PxMeDGkr12W_VR-8bEu3aFdBqDUFpTR4jIQ=s176-c-k-c0x00ffffff-no-rj",
+      proName: "@factbyseb",
+      commentPostedOn: "9 days ago",
+      comments: "LEO Pure Goosebumps 🥵❤️",
+      commentLikes: "10K",
+      commentReplies: "201 replies"
+    },
+    {
+      commentlogo: "https://yt3.googleusercontent.com/JORkVX4yqYVvX8su-XhcvGf19Rdhgdj6MwMKvUWi4EiOB98vAni0I8ct2NGm2_GtkpJrP9FF=s176-c-k-c0x00ffffff-no-rj",
+      proName: "@dnyaneshwar2999",
+      commentPostedOn: "8 days ago",
+      comments: "0:59 That 'Sir, Just Sir' just before the Rolex bgm is giving me chills 🥶🧡",
+      commentLikes: "2.1K",
+      commentReplies: "20 replies"
+    },
+    {
+      commentlogo: "https://yt3.googleusercontent.com/5M1UX7CZxLw7iTCAYcRy7wFvplQE682guhC7OfX0GrhhnZSpY81V0qW0imDMprjaaw4upQ4SAQ=s176-c-k-c0x00ffffff-no-rj",
+      proName: "@actor.-.",
+      commentPostedOn: "5 days ago",
+      comments: "THANK YOU GUYS FOR YOUR WONDERFUL SUPPORT, KEEP ENJOYING! ❤🎉",
+      commentLikes: "9",
+      commentReplies: ""
+    },
+    {
+      commentlogo: "https://yt3.googleusercontent.com/Z9Z0c1Y2gEAf-XyIqwDECZJtolelu7WsscY7GfHoEPpRWLGoeE_jup9XgkqvO7gwpN8xLvuSKw=s176-c-k-c0x00ffffff-no-rj",
+      proName: "@jaygohel8562",
+      commentPostedOn: "8 days ago",
+      comments: "Hence proved, Music has no language that consists of feelings & emotions ♥️ Great work BGM King 'Anirudh Ravichander' 👑",
+      commentLikes: "481",
+      commentReplies: "8 replies"
+    },
+    {
+      commentlogo: "https://yt3.googleusercontent.com/VqGkPKdp-JnA4XEoqphmsrJygoPfAib0c82Ky3NMbei1Pc72ygCJZDetEwTZYPCusTJFcIH77Q=s176-c-k-c0x00ffffff-no-rj",
+      proName: "@NikkuEntertainment38",
+      commentPostedOn: "9 days ago",
+      comments: "It's not only a theme video it's a goosebump to all loki fans",
+      commentLikes: "5K",
+      commentReplies: "63 replies"
+    },
+    {
+      commentlogo: "https://yt3.googleusercontent.com/T9K_I9PGytGKIya9FaM-1hH1LzUzNXAPPkp3BWoclwxCQyBpyTElcgdCAT2FhlgA1gs0LJkHzDs=s176-c-k-c0x00ffffff-no-rj",
+      proName: "@arifaahmed7229",
+      commentPostedOn: "8 days ago",
+      comments: "Lokiverse 2.0 is Better than previous one 😍Anirudh's magic💥",
+      commentLikes: "103",
+      commentReplies: "3 replies"
+    }
   ])
 
   // if (id) {
@@ -229,11 +335,48 @@ const VideoPage = () => {
                 </div>
 
                 <div className="mvc-comments-section">
+
                   <div className="mvc-cs-count">
                     <p>{video.vidCommentsCount} Comments</p>
                     <div className="mvc-cs-sort">
-                      <div></div>
+                      <div className="mvc-cs-sort-logo"><YtSort /></div>
+                      <p>Sort by</p>
                     </div>
+                  </div>
+
+                  <div className="mvc-cs-add-comments-layout">
+                    <div className="mvc-cs-add-my-comments">
+                      <div className="mvc-cs-ac-logo"><img src="https://yt3.ggpht.com/yti/ADpuP3NyJfxoWTO76lTFcjes8eD2QuQ1W2k5-t215y61=s48-c-k-c0x00ffffff-no-rj" alt="" /></div>
+                      <div className="mvc-cs-add-my-comments-input"><input type="text" placeholder="Add a comment..."/></div>
+                    </div>
+                    {commentSection.length && commentSection.map((com) => (
+                      <div className="mvc-cs-add-comments">
+
+                        <div className="mvc-cs-ac-logo"><img src={com.commentlogo} alt="" /></div>
+
+                        <div className="mvc-cs-ac-text">
+
+                          <div className="mvc-cs-ac-name-posted">
+                            <p className="mvc-cs-ac-name">{com.proName}</p>
+                            <p className="mvc-cs-ac-posted">{com.commentPostedOn}</p>
+                          </div>
+
+                          <p className="mvc-cs-ac-comments">{com.comments}</p>
+
+                          <div className="mvc-cs-ac-like-dislike">
+                            <div className="mvc-cs-ac-like-logo"><YtLikeButton /></div>
+                            <p className="mvc-cs-ac-like">{com.commentLikes}</p>
+                            <div className="mvc-cs-ac-dislike-logo"><YtDislikeButton /></div>
+                            <p className="mvc-cs-ac-reply">Reply</p>
+                          </div>
+
+                          <div className="mvc-cs-ac-replies">
+                            <div className="mvc-cs-ac-sort-down"><i class="fa-solid fa-sort-down fa-sm"></i></div>
+                            <p className="mvc-cs-ac-replies-text">{com.commentReplies}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
