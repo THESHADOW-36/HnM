@@ -19,7 +19,7 @@
 } */
 
 .main-video-content {
-  /* border: 1px solid white; */
+  /* border: 1px solid red; */
   position: relative;
   border-radius: 12px;
   position: relative;
@@ -28,12 +28,12 @@
 }
 
 .mvc-videoplay {
+  border-radius: 12px;
   width: 852px;
   height: 480px;
 }
 
 .mvc-videoplay img {
-  border-radius: 12px;
   width: 100%;
   height: 100%;
 }
@@ -84,6 +84,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .mvc-cc-duration {
@@ -402,4 +403,14 @@
 
 .vlc-cirle-gap i {
   color: rgb(170, 170, 170);
+}
+
+.mvc-comments-section{
+  border: 1px solid white;
+  margin-top: 28px;
+}
+
+.mvc-cs-count> p{
+  font-size: 20px;
+  font-weight: 700;
 }
