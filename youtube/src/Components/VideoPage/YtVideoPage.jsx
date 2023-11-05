@@ -191,7 +191,7 @@ const VideoPage = () => {
       vidViews: "114M views",
       vidPosted: "1 year ago",
       vidDuration: "3:33"
-    }
+    } 
   ])
 
   // eslint-disable-next-line
