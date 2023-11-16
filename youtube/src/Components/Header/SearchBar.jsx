@@ -4,7 +4,7 @@ import "./SearchBar.css"
 import youtubeLogo from "./../../Images/YoutubeLogoWhite.png"
 import create from "./../../Images/Create.png"
 import notification from "./../../Images/Notification.png"
-import profile from "./../../Images/Profile.png"
+// import profile from "./../../Images/Profile.png"
 
 const SearchBar = () => {
   const router = useNavigate();
@@ -111,7 +111,7 @@ const SearchBar = () => {
               <img src={notification} alt="" />
             </div>
             <div className="sb-profile" onClick={signInSite}>
-              <img src={profile} alt="" />
+              <img src="https://w0.peakpx.com/wallpaper/774/368/HD-wallpaper-omen-valorant-key-art.jpg" alt="" />
             </div>
             {/* <div className="sb-setting-menu">
               <EllipsisVertical />
