@@ -1,0 +1,141 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar1 {
+  background-color: rgb(51, 51, 51);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.n1-websites,
+.n1-reward-member,
+.n1-signin-shopbag {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n1-websites>p {
+  height: 100%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+.n1-websites>p:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+.n1-websites>p:nth-child(1){
+  background-color: white;
+  color: black;
+}
+
+.n1-reward-member {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.n1-reward-member>p {
+  margin-right: 6px;
+}
+
+.n1-reward-member>p:nth-child(2),
+.n1-reward-member>p:nth-child(3) {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.n1-signin {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.n1-your-acc {
+  display: flex;
+}
+
+.n1-your-acc>p {
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.n1-ya-downarrow {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.vertical-line-1 {
+  border-left: 1px solid white;
+  height: 26px;
+  margin: 0px 10px;
+}
+
+.n1-shoppingbag {
+  margin-right: 10px;
+}
+
+.navbar-2 {
+  /* border: 1px solid white; */
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 26px;
+}
+
+.n2-category {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.n2-gap-logo {
+  width: 77.8px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.n2-category>p {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.n2-category>p:hover {
+  border-bottom: 1px solid white;
+}
+
+.n2-category>p:last-child {
+  font-weight: 600;
+}
+
+.n2-searchbar-layout {
+  border-bottom: 1px solid white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.n1-sb-input>input {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  margin-left: 4px;
+}
+
+.n1-sb-pause-logo{
+  margin-right: 4px;
+}
