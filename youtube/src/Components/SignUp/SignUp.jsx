@@ -1,8 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SignUp.css"
+import { useNavigate } from "react-router-dom"
 import googleLogo from "./../../Images/Google.png"
+import api from "../Helpers/Axios.Config";
+import toast from "react-hot-toast"
 
 const SignUp = () => {
+  const [userData, setUserData] = useState({ firstname: "", surname: "", day: "", month: "", year: "", gender: "", email: "", password: "", confirmPassword: "" });
+  console.log(userData)
+
+  const router = useNavigate();
+
+  const handleChange = (event) => {
+    setUserData({ ...userData, [event.target.name]: event.target.value })
+  }
+
+  const regSubmit = async (event) => {
+    event.preventDefault();
+    if (userData.firstname && userData.surname && userData.day && userData.month && userData.year && userData.gender && userData.email && userData.password && userData.confirmPassword) {
+      if (userData.password === userData.confirmPassword) {
+        try {
+          const response = await api.post("/auth/register", { userData })
+          if (response.data.success) {
+            alert("Registration Successfull")
+            router("/sign-in")
+          } else {
+            throw new Error("Something went wrong...")
+          }
+        } catch (error) {
+          toast.error(error?.response.data.message)
+        }
+      } else {
+        toast.error("Password is incorrect")
+      }
+    } else {
+      toast.error("All fields are mandatory")
+    }
+  }
+
+
   return (
     <div className="sign-up">
       <div className="sign-up-layout">
@@ -12,59 +48,59 @@ const SignUp = () => {
 
         <p className="su-input-titles">Enter your name</p>
         <div className="su-input">
-          <input type="text" required />
+          <input type="text" name="firstname" onChange={handleChange} required />
           <label>First name</label>
         </div>
         <div className="su-input">
-          <input type="text" required />
+          <input type="text" name="surname" onChange={handleChange} required />
           <label>Surname (optional)</label>
         </div>
 
         <p className="su-input-titles">Enter your birthday and gender</p>
         <div className="su-dob-layout">
           <div className="su-dob-input">
-            <input type="number" required />
+            <input type="number" name="day" onChange={handleChange} required />
             <label>Day</label>
           </div>
           <div className="su-dob-input">
-            <input type="number" required />
+            <input type="number" name="month" onChange={handleChange} required />
             <label>Month</label>
           </div>
           <div className="su-dob-input">
-            <input type="number" required />
+            <input type="number" name="year" onChange={handleChange} required />
             <label>Year</label>
           </div>
         </div>
 
         <div className="su-input">
-          <input type="text" required />
+          <input type="text" name="gender" onChange={handleChange} required />
           <label>Gender</label>
         </div>
 
         <p className="su-input-titles">Create your own Gmail Address</p>
         <div className="su-input">
-          <input type="text" required />
+          <input type="text" name="email" onChange={handleChange} required />
           <label>Create a Gmail address</label>
         </div>
 
         <p className="su-input-titles">Create a strong password</p>
         <div className="su-input">
-          <input type="text" required />
+          <input type="text" name="password" onChange={handleChange} required />
           <label>Password</label>
         </div>
         <div className="su-input">
-          <input type="text" required />
+          <input type="text" name="confirmPassword" onChange={handleChange} required />
           <label>Confirm Password</label>
         </div>
 
         <div className="su-show-pass">
-          <div className="su-sp-checkbox"><input type="checkbox" /></div>
+          <div className="su-sp-checkbox"><input type="checkbox" name="checkbox" /></div>
           <p>Show password</p>
         </div>
 
         <div className="su-privacy-terms">
           <div className="su-privacy">
-            <div className="su-p-checkbox"><input type="checkbox" defaultChecked /></div>
+            <div className="su-p-checkbox"><input type="checkbox" name="adsfdsf" defaultChecked /></div>
             <p>Privacy and Terms</p>
           </div>
           <div className="su-privacy-details">
@@ -74,7 +110,7 @@ const SignUp = () => {
           </div>
         </div>
         <div className="su-create-one-next">
-          <button className="su-next-button">Next</button>
+          <button className="su-next-button" onClick={regSubmit}>Next</button>
         </div>
       </div>
       <div className="si-country-terms">

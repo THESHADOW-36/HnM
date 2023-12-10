@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SignIn.css"
 import { useNavigate } from "react-router-dom";
 import googleLogo from "./../../Images/Google.png"
+import api from "../Helpers/Axios.Config";
+import toast from "react-hot-toast"
 
 const SignIn = () => {
+  const [userData, setUserData] = useState({ email: "", password: "" });
+
   const router = useNavigate()
+
+  const handleChange = (event) => {
+    setUserData({ ...userData, [event.target.name]: event.target.value })
+  }
+
+  const loginSubmit = async (event) => {
+    event.preventDefault();
+    if (userData.email && userData.password) {
+      try {
+        const response = await api.post("/auth/login", { userData })
+        if (response.data.success) {
+          toast.success("Login Successful")
+        } else {
+          throw new Error("Something went wrong...")
+        }
+      } catch (error) {
+        toast.error(error?.response.data.message)
+      }
+    } else {
+      toast.error("All Fields are mandatory")
+    }
+  }
 
   function signUpSite() {
     router("/sign-up")
@@ -17,16 +43,16 @@ const SignIn = () => {
         <p className="si-text">Sign in</p>
         <p className="si-continue-to-yt">to continue to YouTube</p>
         <div className="si-input">
-          <input type="text" required />
+          <input type="text" name="email" onChange={handleChange} required />
           <label>Email or phone</label>
         </div>
         <div className="si-input">
-          <input type="password" required />
+          <input type="text" name="password" onChange={handleChange} required />
           <label>Enter your password</label>
         </div>
         <div className="si-show-forget-pass">
           <div className="si-show-pass">
-            <div className="si-sp-checkbox"><input type="checkbox" /></div>
+            <div className="si-sp-checkbox"><input type="checkbox" name="checkbox" /></div>
             <p>Show password</p>
           </div>
           <p className="si-forget-password">Forget password?</p>
@@ -37,7 +63,7 @@ const SignIn = () => {
         </div>
         <div className="si-create-one-next">
           <button className="si-creat-one-button" onClick={signUpSite}>Create account</button>
-          <button className="si-next-button">Next</button>
+          <button className="si-next-button" onClick={loginSubmit}>Next</button>
         </div>
       </div>
 
