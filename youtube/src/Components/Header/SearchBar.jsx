@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import "./SearchBar.css"
 import youtubeLogo from "./../../Images/YoutubeLogoWhite.png"
 import create from "./../../Images/Create.png"
 import notification from "./../../Images/Notification.png"
+import { AuthContext } from "../Context/AuthContext";
 // import profile from "./../../Images/Profile.png"
 
 const SearchBar = () => {
   const router = useNavigate();
+
+  const { state, Logout } = useContext(AuthContext)
 
   function signInSite() {
     router("/sign-in")
@@ -103,23 +106,30 @@ const SearchBar = () => {
             </div>
           </div>
 
-          <div className="sb-create-notify-signin">
-            <div className="sb-create">
-              <img src={create} alt="" />
-            </div>
-            <div className="sb-notify">
-              <img src={notification} alt="" />
-            </div>
-            <div className="sb-profile" onClick={signInSite}>
-              <img src="https://w0.peakpx.com/wallpaper/774/368/HD-wallpaper-omen-valorant-key-art.jpg" alt="" />
-            </div>
-            {/* <div className="sb-setting-menu">
-              <EllipsisVertical />
-            </div>
-            <div className="sb-sign-in-layout" onClick={signInSite}>
-              <div className="sb-sign-in-logo fa-lg"><SignInProfile /></div>
-              <div className="sb-sign-in-text">Sign in</div>
-            </div> */}
+          <div >
+            {state?.user?.id ?
+              <div className="sb-create-notify-signin">
+                <div className="sb-create">
+                  <img src={create} alt="" />
+                </div>
+                <div className="sb-notify">
+                  <img src={notification} alt="" />
+                </div>
+                <div className="sb-profile" onClick={Logout}>
+                  <img src="https://w0.peakpx.com/wallpaper/774/368/HD-wallpaper-omen-valorant-key-art.jpg" alt="" />
+                </div>
+              </div>
+              :
+              <div className="sb-create-notify-signin">
+                <div className="sb-setting-menu">
+                  <EllipsisVertical />
+                </div>
+                <div className="sb-sign-in-layout" onClick={signInSite}>
+                  <div className="sb-sign-in-logo fa-lg"><SignInProfile /></div>
+                  <div className="sb-sign-in-text">Sign in</div>
+                </div>
+              </div>
+            }
           </div>
         </div>
       </div >

@@ -21,7 +21,7 @@ const ParentAuthContext = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState)
 
     function Login(data) {
-        dispatch({ type: "LOGIN", payload })
+        dispatch({ type: "LOGIN", payload: data })
     }
 
     function Logout() {
